@@ -7332,7 +7332,6 @@ const itemList = JSON.parse(`"items"=[{
   }
 }]`);
 
-var allObjects = itemList.length;
 const Nitems=5;
 
 function paginator(Npag){
@@ -7351,8 +7350,8 @@ function paginator(Npag){
             <div class="comp-cpu card h-100">
               <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
               <div class="card-body p-4">
-                <div id="content-name" class="text-center">
-                  <h5 class="object-name fw-bolder">${result[i]}</h5>
+                <div class="text-center">
+                  <h5 id="content-name" class="object-name fw-bolder">${result[i]}</h5>
                 </div>
               </div>
             </div>

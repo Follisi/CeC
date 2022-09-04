@@ -7335,23 +7335,6 @@ const itemList = JSON.parse(`"items"=[{
 var allObjects = itemList.length;
 const Nitems=5;
 
-for (let e = 0; e < Nitems; e++) {
-  let parent = document.getElementById("container_item");
-  parent.insertAdjacentHTML("beforeend", `
-    <div class="col mb-5 item_shop">
-      <div class="comp-cpu card h-100">
-        <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
-        <div class="card-body p-4">
-          <div id="content-name" class="text-center">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  `);
-  nameObjectCpu.items[e].innerHTML = itemList.items[e].brand + ' ' + itemList.items[e].serie + ' ' + itemList.items[e].sottoseria + ' ' + itemList.items[e].name;
-}
-
 function paginator(Npag){
     document.getElementById("content-name").innerHTML="";
     let result=[];
@@ -7359,12 +7342,21 @@ function paginator(Npag){
     if(start<itemList.items.length){
         for(let i=start;i<start+Nitems;i++){
             if(itemList.items[i]!==undefined){
-                result.push(itemList[i]);
+                result.push(itemList.items[i]);
             }
         }
         console.log(result);
         for(let i=0;i<result.length;i++){
-            document.getElementById("content-name").insertAdjacentHTML("beforeend",`<h5 class="object-name fw-bolder">${result[i]}</h5>`);
+            document.getElementById("container_item").insertAdjacentHTML("beforeend",`<div class="col mb-5 item_shop">
+            <div class="comp-cpu card h-100">
+              <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
+              <div class="card-body p-4">
+                <div id="content-name" class="text-center">
+                  <h5 class="object-name fw-bolder">${result[i]}</h5>
+                </div>
+              </div>
+            </div>
+          </div>`);
         }
     }
 }

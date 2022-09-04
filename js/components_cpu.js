@@ -1,4 +1,4 @@
-const itemList = JSON.parse(`{ "cpuList" : [
+const itemList = JSON.parse(`{
   {
    "id_number": 1,
    "type": "cpu",
@@ -7330,25 +7330,62 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "sottoserieb": "3000 Series",
    "name": "4416+"
   }
-]}`);
+}`);
 
-var allObjects = itemList.cpuList.length;
-var n = 29;
-var m = (allObjects / n) + (allObjects % n);
+var allObjects = itemList.length;
+const Nitems=30;
 
-for (let e = 0; e < allObjects; e++) {
+for (let e = 0; e < Nitems; e++) {
   let parent = document.getElementById("container_item");
   parent.insertAdjacentHTML("beforeend", `
     <div class="col mb-5 item_shop">
       <div class="comp-cpu card h-100">
-        <img class="object-img card-img-top" src="" alt="preview non disponibile">
+        <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
         <div class="card-body p-4">
           <div class="text-center">
-            <h5 id="object-name" class="object-name fw-bolder"></h5>
+            <h5 id="content-name" class="object-name fw-bolder"></h5>
           </div>
         </div>
       </div>
     </div>
   `);
-  nameObjectCpu[e].innerHTML = itemList.cpuList[e].brand + ' ' + itemList.cpuList[e].serie + ' ' + itemList.cpuList[e].sottoseria + ' ' + itemList.cpuList[e].name;
+  nameObjectCpu[e].innerHTML = itemList[e].brand + ' ' + itemList[e].serie + ' ' + itemList[e].sottoseria + ' ' + itemList[e].name;
 }
+
+function paginator(Npag){
+    document.getElementById("content").innerHTML="";
+    let result=[];
+    let start=Nitems*Npag;
+    if(start<itemList.length){
+        for(let i=start;i<start+Nitems;i++){
+            if(itemList[i]!==undefined){
+                result.push(itemList[i]);
+            }
+        }
+        console.log(result);
+        for(let i=0;i<result.length;i++){
+            document.getElementById("content").insertAdjacentHTML("beforeend",`<li>${result[i]}</li>`);
+        }
+    }
+}
+
+function next(){
+    let num=document.getElementById("Npag");
+    console.log(num.textContent<itemList.length/Nitems)
+    if(num.textContent<itemList.length/Nitems){
+        console.log(parseInt(num.textContent)+1);
+        num.innerHTML=(parseInt(num.textContent)+1).toString();
+    }
+    paginator(num.textContent-1);
+}
+
+function before(){
+    let num=document.getElementById("Npag");
+    if(num.textContent>1){
+        console.log(parseInt(num.textContent)-1);
+        num.innerHTML=(parseInt(num.textContent)-1).toString();
+    }
+    paginator(num.textContent-1);
+}
+
+paginator(0);

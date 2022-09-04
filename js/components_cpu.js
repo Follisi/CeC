@@ -1,4 +1,4 @@
-const itemList = JSON.parse(`{
+const itemList = JSON.parse(` "items" = [{
   {
    "id_number": 1,
    "type": "cpu",
@@ -7330,7 +7330,7 @@ const itemList = JSON.parse(`{
    "sottoserieb": "3000 Series",
    "name": "4416+"
   }
-}`);
+]}`);
 
 var allObjects = itemList.length;
 const Nitems=5;
@@ -7343,22 +7343,22 @@ for (let e = 0; e < Nitems; e++) {
         <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
         <div class="card-body p-4">
           <div id="content-name" class="text-center">
-          
+
           </div>
         </div>
       </div>
     </div>
   `);
-  nameObjectCpu[e].innerHTML = itemList[e].brand + ' ' + itemList[e].serie + ' ' + itemList[e].sottoseria + ' ' + itemList[e].name;
+  nameObjectCpu.items[e].innerHTML = itemList.items[e].brand + ' ' + itemList.items[e].serie + ' ' + itemList.items[e].sottoseria + ' ' + itemList.items[e].name;
 }
 
 function paginator(Npag){
     document.getElementById("content-name").innerHTML="";
     let result=[];
     let start=Nitems*Npag;
-    if(start<itemList.length){
+    if(start<itemList.items.length){
         for(let i=start;i<start+Nitems;i++){
-            if(itemList[i]!==undefined){
+            if(itemList.items[i]!==undefined){
                 result.push(itemList[i]);
             }
         }
@@ -7371,8 +7371,8 @@ function paginator(Npag){
 
 function next(){
     let num=document.getElementById("Npag");
-    console.log(num.textContent<itemList.length/Nitems)
-    if(num.textContent<itemList.length/Nitems){
+    console.log(num.textContent<itemList.items.length/Nitems)
+    if(num.textContent<itemList.items.length/Nitems){
         console.log(parseInt(num.textContent)+1);
         num.innerHTML=(parseInt(num.textContent)+1).toString();
     }

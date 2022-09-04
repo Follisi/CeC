@@ -7342,8 +7342,8 @@ for (let e = 0; e < Nitems; e++) {
       <div class="comp-cpu card h-100">
         <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
         <div class="card-body p-4">
-          <div class="text-center">
-            <h5 id="content-name" class="object-name fw-bolder"></h5>
+          <div id="content-name" class="text-center">
+          
           </div>
         </div>
       </div>
@@ -7364,7 +7364,7 @@ function paginator(Npag){
         }
         console.log(result);
         for(let i=0;i<result.length;i++){
-            document.getElementById("content").insertAdjacentHTML("beforeend",`<li>${result[i]}</li>`);
+            document.getElementById("content-name").insertAdjacentHTML("beforeend",`<h5 class="object-name fw-bolder">${result[i]}</h5>`);
         }
     }
 }

@@ -7333,7 +7333,7 @@ const itemList = JSON.parse(`{
 }`);
 
 var allObjects = itemList.length;
-const Nitems=30;
+const Nitems=5;
 
 for (let e = 0; e < Nitems; e++) {
   let parent = document.getElementById("container_item");
@@ -7353,7 +7353,7 @@ for (let e = 0; e < Nitems; e++) {
 }
 
 function paginator(Npag){
-    document.getElementById("content").innerHTML="";
+    document.getElementById("content-name").innerHTML="";
     let result=[];
     let start=Nitems*Npag;
     if(start<itemList.length){

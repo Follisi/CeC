@@ -7335,7 +7335,7 @@ const itemList = JSON.parse(` "cpuList" = {
 const Nitems=5;
 
 function paginator(Npag){
-    document.getElementById("content").innerHTML="";
+    document.getElementById("content-name").innerHTML="";
     let result=[];
     let start=Nitems*Npag;
     if(start<itemList.cpuList.length){
@@ -7346,7 +7346,7 @@ function paginator(Npag){
         }
         console.log(result);
         for(let i=0;i<result.length;i++){
-            document.getElementById("content").insertAdjacentHTML("beforeend",`<div class="col mb-5 item_shop">
+            document.getElementById("content-name").insertAdjacentHTML("beforeend",`<div class="col mb-5 item_shop">
             <div class="comp-cpu card h-100">
               <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
               <div class="card-body p-4">

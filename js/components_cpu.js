@@ -1,4 +1,4 @@
-const itemList = JSON.parse(`"items"=[{
+const itemList = JSON.parse(` {
   {
    "id_number": 1,
    "type": "cpu",
@@ -7330,7 +7330,7 @@ const itemList = JSON.parse(`"items"=[{
    "sottoserieb": "3000 Series",
    "name": "4416+"
   }
-}]`);
+}`);
 
 const Nitems=5;
 

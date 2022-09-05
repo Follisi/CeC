@@ -7343,14 +7343,14 @@ function paginator(Npag){
       for(let i=start;i<start+Nitems;i++){
           if(itemList.cpuList[i]!==undefined){
               result.push(itemList.cpuList[i].brand + " " + itemList.cpuList[i].serie + " " + itemList.cpuList[i].sottoseria + " " + itemList.cpuList[i].name);
-              result.push(itemList.cpuList[i].imglink);
+              resultB.push(itemList.cpuList[i].imglink);
             }
       }
       console.log(result);
       for(let i=0;i<result.length;i++){
           document.getElementById("itemContainer").insertAdjacentHTML("beforeend",`<div class="col mb-5 item_shop">
           <div class="comp-cpu card h-100">
-            <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
+            <img id="content-img" class="object-img card-img-top" src="${resultB[i]}" alt="preview non disponibile">
             <div class="card-body p-4">
               <div class="text-center">
                 <h5 id="content-name" class="object-name fw-bolder">

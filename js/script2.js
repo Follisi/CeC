@@ -1,7340 +1,7340 @@
-const itemList = JSON.parse(` "cpuList" = {
+const itemList = JSON.parse(`{ "cpuList" : [
     {
-     "id_number": 1,
-     "type": "cpu",
+     "number": 1,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "5000 Series",
-     "name": "PRO 5945 WX"
+     "name": "PRO 5945 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 2,
-     "type": "cpu",
+     "number": 2,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "5000 Series",
-     "name": "PRO 5955 WX"
+     "name": "PRO 5955 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 3,
-     "type": "cpu",
+     "number": 3,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "5000 Series",
-     "name": "PRO 5965 WX"
+     "name": "PRO 5965 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 4,
-     "type": "cpu",
+     "number": 4,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "5000 Series",
-     "name": "PRO 5975 WX"
+     "name": "PRO 5975 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 5,
-     "type": "cpu",
+     "number": 5,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "5000 Series",
-     "name": "PRO 5995 WX"
+     "name": "PRO 5995 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 6,
-     "type": "cpu",
+     "number": 6,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "3000 Series",
-     "name": "3960 X"
+     "name": "3960 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 7,
-     "type": "cpu",
+     "number": 7,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "3000 Series",
-     "name": "3970 X"
+     "name": "3970 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 8,
-     "type": "cpu",
+     "number": 8,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "3000 Series",
-     "name": "3990 X"
+     "name": "3990 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 9,
-     "type": "cpu",
+     "number": 9,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "3000 Series",
-     "name": "PRO 3945 WX"
+     "name": "PRO 3945 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 10,
-     "type": "cpu",
+     "number": 10,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "3000 Series",
-     "name": "PRO 3955 WX"
+     "name": "PRO 3955 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 11,
-     "type": "cpu",
+     "number": 11,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "3000 Series",
-     "name": "PRO 3975 WX"
+     "name": "PRO 3975 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 12,
-     "type": "cpu",
+     "number": 12,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "3000 Series",
-     "name": "PRO 3995 WX"
+     "name": "PRO 3995 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 13,
-     "type": "cpu",
+     "number": 13,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "2000 Series",
-     "name": "2920 X"
+     "name": "2920 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 14,
-     "type": "cpu",
+     "number": 14,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "2000 Series",
-     "name": "2950 X"
+     "name": "2950 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 15,
-     "type": "cpu",
+     "number": 15,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "2000 Series",
-     "name": "2970 WX"
+     "name": "2970 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 16,
-     "type": "cpu",
+     "number": 16,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "2000 Series",
-     "name": "2990 WX"
+     "name": "2990 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 17,
-     "type": "cpu",
+     "number": 17,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "999 Series",
-     "name": "1900 X"
+     "name": "1900 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 18,
-     "type": "cpu",
+     "number": 18,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "1000 Series",
-     "name": "1920 X"
+     "name": "1920 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 19,
-     "type": "cpu",
+     "number": 19,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": "Threadripper",
      "sottoserieb": "1000 Series",
-     "name": "1950 X"
+     "name": "1950 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 20,
-     "type": "cpu",
+     "number": 20,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "7000 Series",
-     "name": "7900 X"
+     "name": "7900 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 21,
-     "type": "cpu",
+     "number": 21,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "7000 Series",
-     "name": "7950 X"
+     "name": "7950 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 22,
-     "type": "cpu",
+     "number": 22,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "5000 Series",
-     "name": "5900"
+     "name": "5900",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 23,
-     "type": "cpu",
+     "number": 23,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "5000 Series",
-     "name": "5900 E"
+     "name": "5900 E",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 24,
-     "type": "cpu",
+     "number": 24,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "5000 Series",
-     "name": "5900 X"
+     "name": "5900 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 25,
-     "type": "cpu",
+     "number": 25,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "5000 Series",
-     "name": "5950 E"
+     "name": "5950 E",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 26,
-     "type": "cpu",
+     "number": 26,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "5000 Series",
-     "name": "5950 X"
+     "name": "5950 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 27,
-     "type": "cpu",
+     "number": 27,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5945 WX"
+     "name": "PRO 5945 WX",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 28,
-     "type": "cpu",
+     "number": 28,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "3000 Series",
-     "name": "3900"
+     "name": "3900",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 29,
-     "type": "cpu",
+     "number": 29,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "3000 Series",
-     "name": "3900 X"
+     "name": "3900 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 30,
-     "type": "cpu",
+     "number": 30,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "3000 Series",
-     "name": "3900 XT"
+     "name": "3900 XT",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 31,
-     "type": "cpu",
+     "number": 31,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "3000 Series",
-     "name": "3950 X"
+     "name": "3950 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 32,
-     "type": "cpu",
+     "number": 32,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 9,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3900"
+     "name": "PRO 3900",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 33,
-     "type": "cpu",
+     "number": 33,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "7000 Series",
-     "name": "7700 X"
+     "name": "7700 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 34,
-     "type": "cpu",
+     "number": 34,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5700"
+     "name": "5700",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 35,
-     "type": "cpu",
+     "number": 35,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5700 G"
+     "name": "5700 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 36,
-     "type": "cpu",
+     "number": 36,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5700 GE"
+     "name": "5700 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 37,
-     "type": "cpu",
+     "number": 37,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5700 X"
+     "name": "5700 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 38,
-     "type": "cpu",
+     "number": 38,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5800"
+     "name": "5800",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 39,
-     "type": "cpu",
+     "number": 39,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5800 E"
+     "name": "5800 E",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 40,
-     "type": "cpu",
+     "number": 40,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5800 X"
+     "name": "5800 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 41,
-     "type": "cpu",
+     "number": 41,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5800 X3D"
+     "name": "5800 X3D",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 42,
-     "type": "cpu",
+     "number": 42,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5750 G"
+     "name": "PRO 5750 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 43,
-     "type": "cpu",
+     "number": 43,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5750 GE"
+     "name": "PRO 5750 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 44,
-     "type": "cpu",
+     "number": 44,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "5000 Series",
-     "name": "5845"
+     "name": "5845",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 45,
-     "type": "cpu",
+     "number": 45,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "4000 Series",
-     "name": "4700 S"
+     "name": "4700 S",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 46,
-     "type": "cpu",
+     "number": 46,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "4000 Series",
-     "name": "4800 S"
+     "name": "4800 S",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 47,
-     "type": "cpu",
+     "number": 47,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "4000 Series",
-     "name": "4700"
+     "name": "4700",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 48,
-     "type": "cpu",
+     "number": 48,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "4000 Series",
-     "name": "4700 G"
+     "name": "4700 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 49,
-     "type": "cpu",
+     "number": 49,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "4000 Series",
-     "name": "4700 GE"
+     "name": "4700 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 50,
-     "type": "cpu",
+     "number": 50,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "4000 Series",
-     "name": "PRO 4700 G"
+     "name": "PRO 4700 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 51,
-     "type": "cpu",
+     "number": 51,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "4000 Series",
-     "name": "PRO 4750 GE"
+     "name": "PRO 4750 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 52,
-     "type": "cpu",
+     "number": 52,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "3000 Series",
-     "name": "3700 X"
+     "name": "3700 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 53,
-     "type": "cpu",
+     "number": 53,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "3000 Series",
-     "name": "3800 X"
+     "name": "3800 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 54,
-     "type": "cpu",
+     "number": 54,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "3000 Series",
-     "name": "3800 XT"
+     "name": "3800 XT",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 55,
-     "type": "cpu",
+     "number": 55,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3700"
+     "name": "PRO 3700",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 56,
-     "type": "cpu",
+     "number": 56,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "2000 Series",
-     "name": "2700"
+     "name": "2700",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 57,
-     "type": "cpu",
+     "number": 57,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "2000 Series",
-     "name": "2700 E"
+     "name": "2700 E",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 58,
-     "type": "cpu",
+     "number": 58,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "2000 Series",
-     "name": "2700 X"
+     "name": "2700 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 59,
-     "type": "cpu",
+     "number": 59,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "2000 Series",
-     "name": "2700 X Gold Edition"
+     "name": "2700 X Gold Edition",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 60,
-     "type": "cpu",
+     "number": 60,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2700"
+     "name": "PRO 2700",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 61,
-     "type": "cpu",
+     "number": 61,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2700 X"
+     "name": "PRO 2700 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 62,
-     "type": "cpu",
+     "number": 62,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "1000 Series",
-     "name": "1700"
+     "name": "1700",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 63,
-     "type": "cpu",
+     "number": 63,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "1000 Series",
-     "name": "1700 X"
+     "name": "1700 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 64,
-     "type": "cpu",
+     "number": 64,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "1000 Series",
-     "name": "1800 X"
+     "name": "1800 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 65,
-     "type": "cpu",
+     "number": 65,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "1000 Series",
-     "name": "PRO 1700"
+     "name": "PRO 1700",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 66,
-     "type": "cpu",
+     "number": 66,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 7,
      "sottoserieb": "1000 Series",
-     "name": "PRO 1700 X"
+     "name": "PRO 1700 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 67,
-     "type": "cpu",
+     "number": 67,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "7000 Series",
-     "name": "7600 X"
+     "name": "7600 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 68,
-     "type": "cpu",
+     "number": 68,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "5500"
+     "name": "5500",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 69,
-     "type": "cpu",
+     "number": 69,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "5600"
+     "name": "5600",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 70,
-     "type": "cpu",
+     "number": 70,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "5600 E"
+     "name": "5600 E",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 71,
-     "type": "cpu",
+     "number": 71,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "5600 G"
+     "name": "5600 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 72,
-     "type": "cpu",
+     "number": 72,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "5600 GE"
+     "name": "5600 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 73,
-     "type": "cpu",
+     "number": 73,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "5600 X"
+     "name": "5600 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 74,
-     "type": "cpu",
+     "number": 74,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5645"
+     "name": "PRO 5645",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 75,
-     "type": "cpu",
+     "number": 75,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5650 G"
+     "name": "PRO 5650 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 76,
-     "type": "cpu",
+     "number": 76,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5650 GE"
+     "name": "PRO 5650 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 77,
-     "type": "cpu",
+     "number": 77,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "5000 Series",
-     "name": "4500"
+     "name": "4500",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 78,
-     "type": "cpu",
+     "number": 78,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "4000 Series",
-     "name": "4600 G"
+     "name": "4600 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 79,
-     "type": "cpu",
+     "number": 79,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "4000 Series",
-     "name": "4600 GE"
+     "name": "4600 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 80,
-     "type": "cpu",
+     "number": 80,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "4000 Series",
-     "name": "PRO 4650 G"
+     "name": "PRO 4650 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 81,
-     "type": "cpu",
+     "number": 81,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "4000 Series",
-     "name": "PRO 4650 GE"
+     "name": "PRO 4650 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 82,
-     "type": "cpu",
+     "number": 82,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "3400 G"
+     "name": "3400 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 83,
-     "type": "cpu",
+     "number": 83,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "3500"
+     "name": "3500",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 84,
-     "type": "cpu",
+     "number": 84,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "3500 X"
+     "name": "3500 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 85,
-     "type": "cpu",
+     "number": 85,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "3600"
+     "name": "3600",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 86,
-     "type": "cpu",
+     "number": 86,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "3600 X"
+     "name": "3600 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 87,
-     "type": "cpu",
+     "number": 87,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "3600 XT"
+     "name": "3600 XT",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 88,
-     "type": "cpu",
+     "number": 88,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3350 G"
+     "name": "PRO 3350 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 89,
-     "type": "cpu",
+     "number": 89,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3400 G"
+     "name": "PRO 3400 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 90,
-     "type": "cpu",
+     "number": 90,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3400 GE"
+     "name": "PRO 3400 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 91,
-     "type": "cpu",
+     "number": 91,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3600"
+     "name": "PRO 3600",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 92,
-     "type": "cpu",
+     "number": 92,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "2400 G"
+     "name": "2400 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 93,
-     "type": "cpu",
+     "number": 93,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "2400 GE"
+     "name": "2400 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 94,
-     "type": "cpu",
+     "number": 94,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "2500 X"
+     "name": "2500 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 95,
-     "type": "cpu",
+     "number": 95,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "2600"
+     "name": "2600",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 96,
-     "type": "cpu",
+     "number": 96,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "2600 E"
+     "name": "2600 E",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 97,
-     "type": "cpu",
+     "number": 97,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "2600 X"
+     "name": "2600 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 98,
-     "type": "cpu",
+     "number": 98,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2400 G"
+     "name": "PRO 2400 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 99,
-     "type": "cpu",
+     "number": 99,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2400 GE"
+     "name": "PRO 2400 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 100,
-     "type": "cpu",
+     "number": 100,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2600"
+     "name": "PRO 2600",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 101,
-     "type": "cpu",
+     "number": 101,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "1000 Series",
-     "name": "1400"
+     "name": "1400",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 102,
-     "type": "cpu",
+     "number": 102,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "1000 Series",
-     "name": "1500 X"
+     "name": "1500 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 103,
-     "type": "cpu",
+     "number": 103,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "1000 Series",
-     "name": "1600"
+     "name": "1600",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 104,
-     "type": "cpu",
+     "number": 104,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "1000 Series",
-     "name": "1600 X"
+     "name": "1600 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 105,
-     "type": "cpu",
+     "number": 105,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "1000 Series",
-     "name": "PRO 1500"
+     "name": "PRO 1500",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 106,
-     "type": "cpu",
+     "number": 106,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 5,
      "sottoserieb": "1000 Series",
-     "name": "PRO 1600"
+     "name": "PRO 1600",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 107,
-     "type": "cpu",
+     "number": 107,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "5000 Series",
-     "name": "5100"
+     "name": "5100",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 108,
-     "type": "cpu",
+     "number": 108,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "5000 Series",
-     "name": "5300 G"
+     "name": "5300 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 109,
-     "type": "cpu",
+     "number": 109,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "5000 Series",
-     "name": "5300 GE"
+     "name": "5300 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 110,
-     "type": "cpu",
+     "number": 110,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5350 G"
+     "name": "PRO 5350 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 111,
-     "type": "cpu",
+     "number": 111,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "5000 Series",
-     "name": "PRO 5350 GE"
+     "name": "PRO 5350 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 112,
-     "type": "cpu",
+     "number": 112,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "4000 Series",
-     "name": "4100"
+     "name": "4100",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 113,
-     "type": "cpu",
+     "number": 113,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "4000 Series",
-     "name": "4300 G"
+     "name": "4300 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 114,
-     "type": "cpu",
+     "number": 114,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "4000 Series",
-     "name": "4300 GE"
+     "name": "4300 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 115,
-     "type": "cpu",
+     "number": 115,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "4000 Series",
-     "name": "PRO 4350 G"
+     "name": "PRO 4350 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 116,
-     "type": "cpu",
+     "number": 116,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "4000 Series",
-     "name": "PRO 4350 GE"
+     "name": "PRO 4350 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 117,
-     "type": "cpu",
+     "number": 117,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "3000 Series",
-     "name": "3100"
+     "name": "3100",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 118,
-     "type": "cpu",
+     "number": 118,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "3000 Series",
-     "name": "3200 G"
+     "name": "3200 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 119,
-     "type": "cpu",
+     "number": 119,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "3000 Series",
-     "name": "3300 X"
+     "name": "3300 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 120,
-     "type": "cpu",
+     "number": 120,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3200 G"
+     "name": "PRO 3200 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 121,
-     "type": "cpu",
+     "number": 121,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "3000 Series",
-     "name": "PRO 3200 GE"
+     "name": "PRO 3200 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 122,
-     "type": "cpu",
+     "number": 122,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "2000 Series",
-     "name": "2200 G"
+     "name": "2200 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 123,
-     "type": "cpu",
+     "number": 123,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "2000 Series",
-     "name": "2200 GE"
+     "name": "2200 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 124,
-     "type": "cpu",
+     "number": 124,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "2000 Series",
-     "name": "2300 X"
+     "name": "2300 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 125,
-     "type": "cpu",
+     "number": 125,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2100 GE"
+     "name": "PRO 2100 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 126,
-     "type": "cpu",
+     "number": 126,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2200 G"
+     "name": "PRO 2200 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 127,
-     "type": "cpu",
+     "number": 127,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "2000 Series",
-     "name": "PRO 2200 GE"
+     "name": "PRO 2200 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 128,
-     "type": "cpu",
+     "number": 128,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "1000 Series",
-     "name": "1200"
+     "name": "1200",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 129,
-     "type": "cpu",
+     "number": 129,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "1000 Series",
-     "name": "1300 X"
+     "name": "1300 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 130,
-     "type": "cpu",
+     "number": 130,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "1000 Series",
-     "name": "PRO 1200"
+     "name": "PRO 1200",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 131,
-     "type": "cpu",
+     "number": 131,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Ryzen",
      "sottoseria": 3,
      "sottoserieb": "1000 Series",
-     "name": "PRO 1300"
+     "name": "PRO 1300",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 132,
-     "type": "cpu",
+     "number": 132,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "4000 Series",
-     "name": "Gold PRO 4150 GE"
+     "name": "Gold PRO 4150 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 133,
-     "type": "cpu",
+     "number": 133,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "3000 Series",
-     "name": "3000 G"
+     "name": "3000 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 134,
-     "type": "cpu",
+     "number": 134,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "3000 Series",
-     "name": "Silver 3050 GE"
+     "name": "Silver 3050 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 135,
-     "type": "cpu",
+     "number": 135,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "3000 Series",
-     "name": "Gold 3150 G"
+     "name": "Gold 3150 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 136,
-     "type": "cpu",
+     "number": 136,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "3000 Series",
-     "name": "Gold 3150 GE"
+     "name": "Gold 3150 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 137,
-     "type": "cpu",
+     "number": 137,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "3000 Series",
-     "name": "Silver PRO 3125 GE"
+     "name": "Silver PRO 3125 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 138,
-     "type": "cpu",
+     "number": 138,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "3000 Series",
-     "name": "Gold PRO 3150 G"
+     "name": "Gold PRO 3150 G",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 139,
-     "type": "cpu",
+     "number": 139,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "3000 Series",
-     "name": "Gold PRO 3150 GE"
+     "name": "Gold PRO 3150 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 140,
-     "type": "cpu",
+     "number": 140,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "300 Series",
-     "name": "300 GE"
+     "name": "300 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 141,
-     "type": "cpu",
+     "number": 141,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "300 Series",
-     "name": "PRO 300 GE"
+     "name": "PRO 300 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 142,
-     "type": "cpu",
+     "number": 142,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "200 Series",
-     "name": "200 GE"
+     "name": "200 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 143,
-     "type": "cpu",
+     "number": 143,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "200 Series",
-     "name": "220 GE"
+     "name": "220 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 144,
-     "type": "cpu",
+     "number": 144,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "200 Series",
-     "name": "240 GE"
+     "name": "240 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 145,
-     "type": "cpu",
+     "number": 145,
      "scope": "desktop",
      "brand": "AMD",
      "serie": "Athlon",
      "sottoserieb": "200 Series",
-     "name": "PRO 200 GE"
+     "name": "PRO 200 GE",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 146,
-     "type": "cpu",
+     "number": 146,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9124"
+     "name": "9124",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 147,
-     "type": "cpu",
+     "number": 147,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9174"
+     "name": "9174",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 148,
-     "type": "cpu",
+     "number": 148,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9224"
+     "name": "9224",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 149,
-     "type": "cpu",
+     "number": 149,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9254"
+     "name": "9254",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 150,
-     "type": "cpu",
+     "number": 150,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9274 F"
+     "name": "9274 F",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 151,
-     "type": "cpu",
+     "number": 151,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9334"
+     "name": "9334",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 152,
-     "type": "cpu",
+     "number": 152,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9354"
+     "name": "9354",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 153,
-     "type": "cpu",
+     "number": 153,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9354 P"
+     "name": "9354 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 154,
-     "type": "cpu",
+     "number": 154,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9454"
+     "name": "9454",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 155,
-     "type": "cpu",
+     "number": 155,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9454 P"
+     "name": "9454 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 156,
-     "type": "cpu",
+     "number": 156,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9534"
+     "name": "9534",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 157,
-     "type": "cpu",
+     "number": 157,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9534 P"
+     "name": "9534 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 158,
-     "type": "cpu",
+     "number": 158,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "9004 Series",
-     "name": "9664"
+     "name": "9664",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 159,
-     "type": "cpu",
+     "number": 159,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "72F3"
+     "name": "72F3",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 160,
-     "type": "cpu",
+     "number": 160,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7313"
+     "name": "7313",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 161,
-     "type": "cpu",
+     "number": 161,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7313 P"
+     "name": "7313 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 162,
-     "type": "cpu",
+     "number": 162,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7343"
+     "name": "7343",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 163,
-     "type": "cpu",
+     "number": 163,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7373 X"
+     "name": "7373 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 164,
-     "type": "cpu",
+     "number": 164,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "73F3"
+     "name": "73F3",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 165,
-     "type": "cpu",
+     "number": 165,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7413"
+     "name": "7413",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 166,
-     "type": "cpu",
+     "number": 166,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7443"
+     "name": "7443",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 167,
-     "type": "cpu",
+     "number": 167,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7443 P"
+     "name": "7443 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 168,
-     "type": "cpu",
+     "number": 168,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7453"
+     "name": "7453",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 169,
-     "type": "cpu",
+     "number": 169,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7473 X"
+     "name": "7473 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 170,
-     "type": "cpu",
+     "number": 170,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "74F3"
+     "name": "74F3",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 171,
-     "type": "cpu",
+     "number": 171,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7513"
+     "name": "7513",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 172,
-     "type": "cpu",
+     "number": 172,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7543"
+     "name": "7543",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 173,
-     "type": "cpu",
+     "number": 173,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7543 P"
+     "name": "7543 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 174,
-     "type": "cpu",
+     "number": 174,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7573 X"
+     "name": "7573 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 175,
-     "type": "cpu",
+     "number": 175,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "75F3"
+     "name": "75F3",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 176,
-     "type": "cpu",
+     "number": 176,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7643"
+     "name": "7643",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 177,
-     "type": "cpu",
+     "number": 177,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7663"
+     "name": "7663",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 178,
-     "type": "cpu",
+     "number": 178,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7713"
+     "name": "7713",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 179,
-     "type": "cpu",
+     "number": 179,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7713 P"
+     "name": "7713 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 180,
-     "type": "cpu",
+     "number": 180,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7763"
+     "name": "7763",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 181,
-     "type": "cpu",
+     "number": 181,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7003 Series",
-     "name": "7773 X"
+     "name": "7773 X",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 182,
-     "type": "cpu",
+     "number": 182,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7232 P"
+     "name": "7232 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 183,
-     "type": "cpu",
+     "number": 183,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7252"
+     "name": "7252",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 184,
-     "type": "cpu",
+     "number": 184,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7262"
+     "name": "7262",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 185,
-     "type": "cpu",
+     "number": 185,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7272"
+     "name": "7272",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 186,
-     "type": "cpu",
+     "number": 186,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7282"
+     "name": "7282",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 187,
-     "type": "cpu",
+     "number": 187,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7302"
+     "name": "7302",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 188,
-     "type": "cpu",
+     "number": 188,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7302 P"
+     "name": "7302 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 189,
-     "type": "cpu",
+     "number": 189,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7352"
+     "name": "7352",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 190,
-     "type": "cpu",
+     "number": 190,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7402"
+     "name": "7402",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 191,
-     "type": "cpu",
+     "number": 191,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7402 P"
+     "name": "7402 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 192,
-     "type": "cpu",
+     "number": 192,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7452"
+     "name": "7452",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 193,
-     "type": "cpu",
+     "number": 193,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7502"
+     "name": "7502",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 194,
-     "type": "cpu",
+     "number": 194,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7502 P"
+     "name": "7502 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 195,
-     "type": "cpu",
+     "number": 195,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7532"
+     "name": "7532",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 196,
-     "type": "cpu",
+     "number": 196,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7542"
+     "name": "7542",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 197,
-     "type": "cpu",
+     "number": 197,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7552"
+     "name": "7552",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 198,
-     "type": "cpu",
+     "number": 198,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7642"
+     "name": "7642",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 199,
-     "type": "cpu",
+     "number": 199,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7662"
+     "name": "7662",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 200,
-     "type": "cpu",
+     "number": 200,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7702"
+     "name": "7702",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 201,
-     "type": "cpu",
+     "number": 201,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7702 P"
+     "name": "7702 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 202,
-     "type": "cpu",
+     "number": 202,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7742"
+     "name": "7742",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 203,
-     "type": "cpu",
+     "number": 203,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7F32"
+     "name": "7F32",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 204,
-     "type": "cpu",
+     "number": 204,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7F52"
+     "name": "7F52",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 205,
-     "type": "cpu",
+     "number": 205,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7F72"
+     "name": "7F72",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 206,
-     "type": "cpu",
+     "number": 206,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7002 Series",
-     "name": "7H12"
+     "name": "7H12",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 207,
-     "type": "cpu",
+     "number": 207,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7251"
+     "name": "7251",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 208,
-     "type": "cpu",
+     "number": 208,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7261"
+     "name": "7261",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 209,
-     "type": "cpu",
+     "number": 209,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7281"
+     "name": "7281",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 210,
-     "type": "cpu",
+     "number": 210,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7301"
+     "name": "7301",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 211,
-     "type": "cpu",
+     "number": 211,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7351"
+     "name": "7351",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 212,
-     "type": "cpu",
+     "number": 212,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7351 P"
+     "name": "7351 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 213,
-     "type": "cpu",
+     "number": 213,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7371"
+     "name": "7371",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 214,
-     "type": "cpu",
+     "number": 214,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7401"
+     "name": "7401",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 215,
-     "type": "cpu",
+     "number": 215,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7401 P"
+     "name": "7401 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 216,
-     "type": "cpu",
+     "number": 216,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7451"
+     "name": "7451",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 217,
-     "type": "cpu",
+     "number": 217,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7501"
+     "name": "7501",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 218,
-     "type": "cpu",
+     "number": 218,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7551"
+     "name": "7551",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 219,
-     "type": "cpu",
+     "number": 219,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7551 P"
+     "name": "7551 P",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 220,
-     "type": "cpu",
+     "number": 220,
      "scope": "server",
      "brand": "AMD",
      "serie": "EPYC",
      "sottoserieb": "7001 Series",
-     "name": "7601"
+     "name": "7601",
+     "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
     },
     {
-     "id_number": 221,
-     "type": "cpu",
+     "number": 221,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X Series",
-     "name": "7900 X"
+     "name": "7900 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 222,
-     "type": "cpu",
+     "number": 222,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "7920 X"
+     "name": "7920 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 223,
-     "type": "cpu",
+     "number": 223,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "7940 X"
+     "name": "7940 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 224,
-     "type": "cpu",
+     "number": 224,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "7960 X"
+     "name": "7960 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 225,
-     "type": "cpu",
+     "number": 225,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "7980 XE"
+     "name": "7980 XE",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 226,
-     "type": "cpu",
+     "number": 226,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "9820 X"
+     "name": "9820 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 227,
-     "type": "cpu",
+     "number": 227,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "9900 X"
+     "name": "9900 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 228,
-     "type": "cpu",
+     "number": 228,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "9920 X"
+     "name": "9920 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 229,
-     "type": "cpu",
+     "number": 229,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "9940 X"
+     "name": "9940 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 230,
-     "type": "cpu",
+     "number": 230,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "9960 X"
+     "name": "9960 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 231,
-     "type": "cpu",
+     "number": 231,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "9980 XE"
+     "name": "9980 XE",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 232,
-     "type": "cpu",
+     "number": 232,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "9990 XE"
+     "name": "9990 XE",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 233,
-     "type": "cpu",
+     "number": 233,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "10900 X"
+     "name": "10900 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 234,
-     "type": "cpu",
+     "number": 234,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "10920 X"
+     "name": "10920 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 235,
-     "type": "cpu",
+     "number": 235,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "10940 X"
+     "name": "10940 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 236,
-     "type": "cpu",
+     "number": 236,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "X series",
-     "name": "10980 XE"
+     "name": "10980 XE",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 237,
-     "type": "cpu",
+     "number": 237,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "12th Generation",
-     "name": "12900"
+     "name": "12900",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 238,
-     "type": "cpu",
+     "number": 238,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "12th Generation",
-     "name": "12900 F"
+     "name": "12900 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 239,
-     "type": "cpu",
+     "number": 239,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "12th Generation",
-     "name": "12900 K"
+     "name": "12900 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 240,
-     "type": "cpu",
+     "number": 240,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "12th Generation",
-     "name": "12900 KF"
+     "name": "12900 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 241,
-     "type": "cpu",
+     "number": 241,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "12th Generation",
-     "name": "12900 KS"
+     "name": "12900 KS",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 242,
-     "type": "cpu",
+     "number": 242,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "12th Generation",
-     "name": "12900 T"
+     "name": "12900 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 243,
-     "type": "cpu",
+     "number": 243,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "11th Generation",
-     "name": "11900"
+     "name": "11900",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 244,
-     "type": "cpu",
+     "number": 244,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "11th Generation",
-     "name": "11900 F"
+     "name": "11900 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 245,
-     "type": "cpu",
+     "number": 245,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "11th Generation",
-     "name": "11900 K"
+     "name": "11900 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 246,
-     "type": "cpu",
+     "number": 246,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "11th Generation",
-     "name": "11900 KB"
+     "name": "11900 KB",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 247,
-     "type": "cpu",
+     "number": 247,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "11th Generation",
-     "name": "11900 KF"
+     "name": "11900 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 248,
-     "type": "cpu",
+     "number": 248,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "11th Generation",
-     "name": "11900 T"
+     "name": "11900 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 249,
-     "type": "cpu",
+     "number": 249,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "10th Generation",
-     "name": "10850 K"
+     "name": "10850 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 250,
-     "type": "cpu",
+     "number": 250,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "10th Generation",
-     "name": "10900"
+     "name": "10900",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 251,
-     "type": "cpu",
+     "number": 251,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "10th Generation",
-     "name": "10900 F"
+     "name": "10900 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 252,
-     "type": "cpu",
+     "number": 252,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "10th Generation",
-     "name": "10900 K"
+     "name": "10900 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 253,
-     "type": "cpu",
+     "number": 253,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "10th Generation",
-     "name": "10900 KF"
+     "name": "10900 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 254,
-     "type": "cpu",
+     "number": 254,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "10th Generation",
-     "name": "10900 T"
+     "name": "10900 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 255,
-     "type": "cpu",
+     "number": 255,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "10th Generation",
-     "name": "10910"
+     "name": "10910",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 256,
-     "type": "cpu",
+     "number": 256,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "9th Generation",
-     "name": "9900"
+     "name": "9900",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 257,
-     "type": "cpu",
+     "number": 257,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "9th Generation",
-     "name": "9900 K"
+     "name": "9900 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 258,
-     "type": "cpu",
+     "number": 258,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "9th Generation",
-     "name": "9900 KF"
+     "name": "9900 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 259,
-     "type": "cpu",
+     "number": 259,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "9th Generation",
-     "name": "9900 KS"
+     "name": "9900 KS",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 260,
-     "type": "cpu",
+     "number": 260,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i9",
      "sottoserieb": "9th Generation",
-     "name": "9900 T"
+     "name": "9900 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 261,
-     "type": "cpu",
+     "number": 261,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "12th Generation",
-     "name": "12700"
+     "name": "12700",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 262,
-     "type": "cpu",
+     "number": 262,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "12th Generation",
-     "name": "12700 F"
+     "name": "12700 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 263,
-     "type": "cpu",
+     "number": 263,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "12th Generation",
-     "name": "12700 K"
+     "name": "12700 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 264,
-     "type": "cpu",
+     "number": 264,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "12th Generation",
-     "name": "12700 KF"
+     "name": "12700 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 265,
-     "type": "cpu",
+     "number": 265,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "12th Generation",
-     "name": "12700 T"
+     "name": "12700 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 266,
-     "type": "cpu",
+     "number": 266,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "11th Generation",
-     "name": "11700 "
+     "name": "11700 ",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 267,
-     "type": "cpu",
+     "number": 267,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "11th Generation",
-     "name": "11700 B"
+     "name": "11700 B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 268,
-     "type": "cpu",
+     "number": 268,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "11th Generation",
-     "name": "11700 F"
+     "name": "11700 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 269,
-     "type": "cpu",
+     "number": 269,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "11th Generation",
-     "name": "11700 K"
+     "name": "11700 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 270,
-     "type": "cpu",
+     "number": 270,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "11th Generation",
-     "name": "11700 KF"
+     "name": "11700 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 271,
-     "type": "cpu",
+     "number": 271,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "11th Generation",
-     "name": "11700 T"
+     "name": "11700 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 272,
-     "type": "cpu",
+     "number": 272,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "10th Generation",
-     "name": "10700"
+     "name": "10700",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 273,
-     "type": "cpu",
+     "number": 273,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "10th Generation",
-     "name": "10700 F"
+     "name": "10700 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 274,
-     "type": "cpu",
+     "number": 274,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "10th Generation",
-     "name": "10700 K"
+     "name": "10700 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 275,
-     "type": "cpu",
+     "number": 275,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "10th Generation",
-     "name": "10700 KF"
+     "name": "10700 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 276,
-     "type": "cpu",
+     "number": 276,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "10th Generation",
-     "name": "10700 T"
+     "name": "10700 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 277,
-     "type": "cpu",
+     "number": 277,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "9th Generation",
-     "name": "9700"
+     "name": "9700",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 278,
-     "type": "cpu",
+     "number": 278,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "9th Generation",
-     "name": "9700 F"
+     "name": "9700 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 279,
-     "type": "cpu",
+     "number": 279,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "9th Generation",
-     "name": "9700 K"
+     "name": "9700 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 280,
-     "type": "cpu",
+     "number": 280,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "9th Generation",
-     "name": "9700 KF"
+     "name": "9700 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 281,
-     "type": "cpu",
+     "number": 281,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "9th Generation",
-     "name": "9700 T"
+     "name": "9700 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 282,
-     "type": "cpu",
+     "number": 282,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "8th Generation",
-     "name": "8086 K"
+     "name": "8086 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 283,
-     "type": "cpu",
+     "number": 283,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "8th Generation",
-     "name": "8700"
+     "name": "8700",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 284,
-     "type": "cpu",
+     "number": 284,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "8th Generation",
-     "name": "8700 K"
+     "name": "8700 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 285,
-     "type": "cpu",
+     "number": 285,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "8th Generation",
-     "name": "8700 B"
+     "name": "8700 B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 286,
-     "type": "cpu",
+     "number": 286,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "8th Generation",
-     "name": "8700 T"
+     "name": "8700 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 287,
-     "type": "cpu",
+     "number": 287,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "7th Generation",
-     "name": "7700"
+     "name": "7700",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 288,
-     "type": "cpu",
+     "number": 288,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "7th Generation",
-     "name": "7700 K"
+     "name": "7700 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 289,
-     "type": "cpu",
+     "number": 289,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i7",
      "sottoserieb": "7th Generation",
-     "name": "7700 T"
+     "name": "7700 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 290,
-     "type": "cpu",
+     "number": 290,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "13th Generation",
-     "name": "13400"
+     "name": "13400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 291,
-     "type": "cpu",
+     "number": 291,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12400"
+     "name": "12400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 292,
-     "type": "cpu",
+     "number": 292,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12400 F"
+     "name": "12400 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 293,
-     "type": "cpu",
+     "number": 293,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12400 T"
+     "name": "12400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 294,
-     "type": "cpu",
+     "number": 294,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12490 F"
+     "name": "12490 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 295,
-     "type": "cpu",
+     "number": 295,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12500"
+     "name": "12500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 296,
-     "type": "cpu",
+     "number": 296,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12500 T"
+     "name": "12500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 297,
-     "type": "cpu",
+     "number": 297,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12600"
+     "name": "12600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 298,
-     "type": "cpu",
+     "number": 298,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12600 K"
+     "name": "12600 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 299,
-     "type": "cpu",
+     "number": 299,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12600 KF"
+     "name": "12600 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 300,
-     "type": "cpu",
+     "number": 300,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "12th Generation",
-     "name": "12600 T"
+     "name": "12600 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 301,
-     "type": "cpu",
+     "number": 301,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11400"
+     "name": "11400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 302,
-     "type": "cpu",
+     "number": 302,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11400 F"
+     "name": "11400 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 303,
-     "type": "cpu",
+     "number": 303,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11400 T"
+     "name": "11400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 304,
-     "type": "cpu",
+     "number": 304,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11500"
+     "name": "11500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 305,
-     "type": "cpu",
+     "number": 305,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11500 B"
+     "name": "11500 B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 306,
-     "type": "cpu",
+     "number": 306,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11500 T"
+     "name": "11500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 307,
-     "type": "cpu",
+     "number": 307,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11600"
+     "name": "11600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 308,
-     "type": "cpu",
+     "number": 308,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11600 K "
+     "name": "11600 K ",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 309,
-     "type": "cpu",
+     "number": 309,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11600 KF"
+     "name": "11600 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 310,
-     "type": "cpu",
+     "number": 310,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "11th Generation",
-     "name": "11600 T"
+     "name": "11600 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 311,
-     "type": "cpu",
+     "number": 311,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10400"
+     "name": "10400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 312,
-     "type": "cpu",
+     "number": 312,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10400 F"
+     "name": "10400 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 313,
-     "type": "cpu",
+     "number": 313,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10400 T"
+     "name": "10400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 314,
-     "type": "cpu",
+     "number": 314,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10500"
+     "name": "10500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 315,
-     "type": "cpu",
+     "number": 315,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10500 T"
+     "name": "10500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 316,
-     "type": "cpu",
+     "number": 316,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10505"
+     "name": "10505",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 317,
-     "type": "cpu",
+     "number": 317,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10600"
+     "name": "10600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 318,
-     "type": "cpu",
+     "number": 318,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10600 K"
+     "name": "10600 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 319,
-     "type": "cpu",
+     "number": 319,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10600 KF"
+     "name": "10600 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 320,
-     "type": "cpu",
+     "number": 320,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "10th Generation",
-     "name": "10600 T"
+     "name": "10600 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 321,
-     "type": "cpu",
+     "number": 321,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9400"
+     "name": "9400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 322,
-     "type": "cpu",
+     "number": 322,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9400 F"
+     "name": "9400 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 323,
-     "type": "cpu",
+     "number": 323,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9400 T"
+     "name": "9400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 324,
-     "type": "cpu",
+     "number": 324,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9500"
+     "name": "9500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 325,
-     "type": "cpu",
+     "number": 325,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9500 F"
+     "name": "9500 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 326,
-     "type": "cpu",
+     "number": 326,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9500 T"
+     "name": "9500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 327,
-     "type": "cpu",
+     "number": 327,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9600"
+     "name": "9600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 328,
-     "type": "cpu",
+     "number": 328,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9600 K"
+     "name": "9600 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 329,
-     "type": "cpu",
+     "number": 329,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9600 KF"
+     "name": "9600 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 330,
-     "type": "cpu",
+     "number": 330,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "9th Generation",
-     "name": "9600 T"
+     "name": "9600 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 331,
-     "type": "cpu",
+     "number": 331,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8400"
+     "name": "8400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 332,
-     "type": "cpu",
+     "number": 332,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8400 B"
+     "name": "8400 B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 333,
-     "type": "cpu",
+     "number": 333,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8400 T"
+     "name": "8400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 334,
-     "type": "cpu",
+     "number": 334,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8500"
+     "name": "8500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 335,
-     "type": "cpu",
+     "number": 335,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8500 B"
+     "name": "8500 B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 336,
-     "type": "cpu",
+     "number": 336,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8500 T"
+     "name": "8500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 337,
-     "type": "cpu",
+     "number": 337,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8600"
+     "name": "8600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 338,
-     "type": "cpu",
+     "number": 338,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8600 K"
+     "name": "8600 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 339,
-     "type": "cpu",
+     "number": 339,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "8th Generation",
-     "name": "8600 T"
+     "name": "8600 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 340,
-     "type": "cpu",
+     "number": 340,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7400"
+     "name": "7400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 341,
-     "type": "cpu",
+     "number": 341,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7400 T"
+     "name": "7400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 342,
-     "type": "cpu",
+     "number": 342,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7500"
+     "name": "7500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 343,
-     "type": "cpu",
+     "number": 343,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7500 T"
+     "name": "7500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 344,
-     "type": "cpu",
+     "number": 344,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7600"
+     "name": "7600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 345,
-     "type": "cpu",
+     "number": 345,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7600 K"
+     "name": "7600 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 346,
-     "type": "cpu",
+     "number": 346,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7600 T"
+     "name": "7600 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 347,
-     "type": "cpu",
+     "number": 347,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i5",
      "sottoserieb": "7th Generation",
-     "name": "7640 X"
+     "name": "7640 X",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 348,
-     "type": "cpu",
+     "number": 348,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "12th Generation",
-     "name": "12100"
+     "name": "12100",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 349,
-     "type": "cpu",
+     "number": 349,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "12th Generation",
-     "name": "12100 F"
+     "name": "12100 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 350,
-     "type": "cpu",
+     "number": 350,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "12th Generation",
-     "name": "12100 T"
+     "name": "12100 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 351,
-     "type": "cpu",
+     "number": 351,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "12th Generation",
-     "name": "12300"
+     "name": "12300",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 352,
-     "type": "cpu",
+     "number": 352,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "12th Generation",
-     "name": "12300 T"
+     "name": "12300 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 353,
-     "type": "cpu",
+     "number": 353,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "11th Generation",
-     "name": "11100 B"
+     "name": "11100 B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 354,
-     "type": "cpu",
+     "number": 354,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10100"
+     "name": "10100",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 355,
-     "type": "cpu",
+     "number": 355,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10100 F"
+     "name": "10100 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 356,
-     "type": "cpu",
+     "number": 356,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10100 T"
+     "name": "10100 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 357,
-     "type": "cpu",
+     "number": 357,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10105"
+     "name": "10105",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 358,
-     "type": "cpu",
+     "number": 358,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10105 F"
+     "name": "10105 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 359,
-     "type": "cpu",
+     "number": 359,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10105 T"
+     "name": "10105 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 360,
-     "type": "cpu",
+     "number": 360,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10300"
+     "name": "10300",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 361,
-     "type": "cpu",
+     "number": 361,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10300 T"
+     "name": "10300 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 362,
-     "type": "cpu",
+     "number": 362,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10305"
+     "name": "10305",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 363,
-     "type": "cpu",
+     "number": 363,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10305 T"
+     "name": "10305 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 364,
-     "type": "cpu",
+     "number": 364,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10320"
+     "name": "10320",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 365,
-     "type": "cpu",
+     "number": 365,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "10th Generation",
-     "name": "10325"
+     "name": "10325",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 366,
-     "type": "cpu",
+     "number": 366,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9100"
+     "name": "9100",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 367,
-     "type": "cpu",
+     "number": 367,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9100 F"
+     "name": "9100 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 368,
-     "type": "cpu",
+     "number": 368,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9100 T"
+     "name": "9100 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 369,
-     "type": "cpu",
+     "number": 369,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9300"
+     "name": "9300",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 370,
-     "type": "cpu",
+     "number": 370,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9300 T"
+     "name": "9300 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 371,
-     "type": "cpu",
+     "number": 371,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9320"
+     "name": "9320",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 372,
-     "type": "cpu",
+     "number": 372,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9350 K"
+     "name": "9350 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 373,
-     "type": "cpu",
+     "number": 373,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "9th Generation",
-     "name": "9350 KF"
+     "name": "9350 KF",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 374,
-     "type": "cpu",
+     "number": 374,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "8th Generation",
-     "name": "8100"
+     "name": "8100",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 375,
-     "type": "cpu",
+     "number": 375,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "8th Generation",
-     "name": "8100 B"
+     "name": "8100 B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 376,
-     "type": "cpu",
+     "number": 376,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "8th Generation",
-     "name": "8100 F"
+     "name": "8100 F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 377,
-     "type": "cpu",
+     "number": 377,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "8th Generation",
-     "name": "8100 T"
+     "name": "8100 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 378,
-     "type": "cpu",
+     "number": 378,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "8th Generation",
-     "name": "8300"
+     "name": "8300",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 379,
-     "type": "cpu",
+     "number": 379,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "8th Generation",
-     "name": "8300 T"
+     "name": "8300 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 380,
-     "type": "cpu",
+     "number": 380,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "8th Generation",
-     "name": "8350 K"
+     "name": "8350 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 381,
-     "type": "cpu",
+     "number": 381,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "7th Generation",
-     "name": "7100"
+     "name": "7100",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 382,
-     "type": "cpu",
+     "number": 382,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "7th Generation",
-     "name": "7100 T"
+     "name": "7100 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 383,
-     "type": "cpu",
+     "number": 383,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "7th Generation",
-     "name": "7300"
+     "name": "7300",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 384,
-     "type": "cpu",
+     "number": 384,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "7th Generation",
-     "name": "7300 T"
+     "name": "7300 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 385,
-     "type": "cpu",
+     "number": 385,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "7th Generation",
-     "name": "7320"
+     "name": "7320",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 386,
-     "type": "cpu",
+     "number": 386,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Core",
      "sottoseria": "i3",
      "sottoserieb": "7th Generation",
-     "name": "7350 K"
+     "name": "7350 K",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 387,
-     "type": "cpu",
+     "number": 387,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5400"
+     "name": "G 5400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 388,
-     "type": "cpu",
+     "number": 388,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5400 T"
+     "name": "G 5400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 389,
-     "type": "cpu",
+     "number": 389,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5420"
+     "name": "G 5420",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 390,
-     "type": "cpu",
+     "number": 390,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5420 T"
+     "name": "G 5420 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 391,
-     "type": "cpu",
+     "number": 391,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5500"
+     "name": "G 5500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 392,
-     "type": "cpu",
+     "number": 392,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5500 T"
+     "name": "G 5500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 393,
-     "type": "cpu",
+     "number": 393,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5600"
+     "name": "G 5600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 394,
-     "type": "cpu",
+     "number": 394,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5600 T"
+     "name": "G 5600 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 395,
-     "type": "cpu",
+     "number": 395,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 5620"
+     "name": "G 5620",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 396,
-     "type": "cpu",
+     "number": 396,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6400"
+     "name": "G 6400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 397,
-     "type": "cpu",
+     "number": 397,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6400 T"
+     "name": "G 6400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 398,
-     "type": "cpu",
+     "number": 398,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6405"
+     "name": "G 6405",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 399,
-     "type": "cpu",
+     "number": 399,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6405 T"
+     "name": "G 6405 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 400,
-     "type": "cpu",
+     "number": 400,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6500"
+     "name": "G 6500",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 401,
-     "type": "cpu",
+     "number": 401,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6500 T"
+     "name": "G 6500 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 402,
-     "type": "cpu",
+     "number": 402,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6505"
+     "name": "G 6505",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 403,
-     "type": "cpu",
+     "number": 403,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6505 T"
+     "name": "G 6505 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 404,
-     "type": "cpu",
+     "number": 404,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6600"
+     "name": "G 6600",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 405,
-     "type": "cpu",
+     "number": 405,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 6605"
+     "name": "G 6605",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 406,
-     "type": "cpu",
+     "number": 406,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 7400"
+     "name": "G 7400",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 407,
-     "type": "cpu",
+     "number": 407,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Gold",
      "sottoserieb": "Pentium Gold G Series",
-     "name": "G 7400 T"
+     "name": "G 7400 T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 408,
-     "type": "cpu",
+     "number": 408,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Silver",
      "sottoserieb": "Pentium Silver J Series",
-     "name": "J 5005"
+     "name": "J 5005",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 409,
-     "type": "cpu",
+     "number": 409,
      "scope": "desktop",
      "brand": "Intel",
      "serie": "Pentium",
      "sottoseria": "Silver",
      "sottoserieb": "Pentium Silver J Series",
-     "name": "J 5040"
+     "name": "J 5040",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 410,
-     "type": "cpu",
+     "number": 410,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "9000 Series",
-     "name": "9221"
+     "name": "9221",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 411,
-     "type": "cpu",
+     "number": 411,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "9000 Series",
-     "name": "9222"
+     "name": "9222",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 412,
-     "type": "cpu",
+     "number": 412,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "9000 Series",
-     "name": "9242"
+     "name": "9242",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 413,
-     "type": "cpu",
+     "number": 413,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "9000 Series",
-     "name": "9282"
+     "name": "9282",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 414,
-     "type": "cpu",
+     "number": 414,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8124"
+     "name": "8124",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 415,
-     "type": "cpu",
+     "number": 415,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8124M"
+     "name": "8124M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 416,
-     "type": "cpu",
+     "number": 416,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8136"
+     "name": "8136",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 417,
-     "type": "cpu",
+     "number": 417,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8151"
+     "name": "8151",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 418,
-     "type": "cpu",
+     "number": 418,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8153"
+     "name": "8153",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 419,
-     "type": "cpu",
+     "number": 419,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8156"
+     "name": "8156",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 420,
-     "type": "cpu",
+     "number": 420,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8158"
+     "name": "8158",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 421,
-     "type": "cpu",
+     "number": 421,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8160"
+     "name": "8160",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 422,
-     "type": "cpu",
+     "number": 422,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8160F"
+     "name": "8160F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 423,
-     "type": "cpu",
+     "number": 423,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8160H"
+     "name": "8160H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 424,
-     "type": "cpu",
+     "number": 424,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8160M"
+     "name": "8160M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 425,
-     "type": "cpu",
+     "number": 425,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8160T"
+     "name": "8160T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 426,
-     "type": "cpu",
+     "number": 426,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8163"
+     "name": "8163",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 427,
-     "type": "cpu",
+     "number": 427,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8164"
+     "name": "8164",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 428,
-     "type": "cpu",
+     "number": 428,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8165"
+     "name": "8165",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 429,
-     "type": "cpu",
+     "number": 429,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8167M"
+     "name": "8167M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 430,
-     "type": "cpu",
+     "number": 430,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8168"
+     "name": "8168",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 431,
-     "type": "cpu",
+     "number": 431,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8170"
+     "name": "8170",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 432,
-     "type": "cpu",
+     "number": 432,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8170M"
+     "name": "8170M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 433,
-     "type": "cpu",
+     "number": 433,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8171M"
+     "name": "8171M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 434,
-     "type": "cpu",
+     "number": 434,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8172M"
+     "name": "8172M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 435,
-     "type": "cpu",
+     "number": 435,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8173M"
+     "name": "8173M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 436,
-     "type": "cpu",
+     "number": 436,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8174"
+     "name": "8174",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 437,
-     "type": "cpu",
+     "number": 437,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8175M"
+     "name": "8175M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 438,
-     "type": "cpu",
+     "number": 438,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8176"
+     "name": "8176",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 439,
-     "type": "cpu",
+     "number": 439,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8176F"
+     "name": "8176F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 440,
-     "type": "cpu",
+     "number": 440,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8176M"
+     "name": "8176M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 441,
-     "type": "cpu",
+     "number": 441,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8180"
+     "name": "8180",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 442,
-     "type": "cpu",
+     "number": 442,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8180M"
+     "name": "8180M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 443,
-     "type": "cpu",
+     "number": 443,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8222L"
+     "name": "8222L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 444,
-     "type": "cpu",
+     "number": 444,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8294C"
+     "name": "8294C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 445,
-     "type": "cpu",
+     "number": 445,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8251"
+     "name": "8251",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 446,
-     "type": "cpu",
+     "number": 446,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8253"
+     "name": "8253",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 447,
-     "type": "cpu",
+     "number": 447,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8255C"
+     "name": "8255C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 448,
-     "type": "cpu",
+     "number": 448,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8256"
+     "name": "8256",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 449,
-     "type": "cpu",
+     "number": 449,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8259CL"
+     "name": "8259CL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 450,
-     "type": "cpu",
+     "number": 450,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8259L"
+     "name": "8259L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 451,
-     "type": "cpu",
+     "number": 451,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8260"
+     "name": "8260",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 452,
-     "type": "cpu",
+     "number": 452,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8260L"
+     "name": "8260L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 453,
-     "type": "cpu",
+     "number": 453,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8260M"
+     "name": "8260M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 454,
-     "type": "cpu",
+     "number": 454,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8260Y"
+     "name": "8260Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 455,
-     "type": "cpu",
+     "number": 455,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8263C"
+     "name": "8263C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 456,
-     "type": "cpu",
+     "number": 456,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8267W"
+     "name": "8267W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 457,
-     "type": "cpu",
+     "number": 457,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8268"
+     "name": "8268",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 458,
-     "type": "cpu",
+     "number": 458,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8269CY"
+     "name": "8269CY",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 459,
-     "type": "cpu",
+     "number": 459,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8270"
+     "name": "8270",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 460,
-     "type": "cpu",
+     "number": 460,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8272CL"
+     "name": "8272CL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 461,
-     "type": "cpu",
+     "number": 461,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8272L"
+     "name": "8272L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 462,
-     "type": "cpu",
+     "number": 462,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8273CL"
+     "name": "8273CL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 463,
-     "type": "cpu",
+     "number": 463,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8276"
+     "name": "8276",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 464,
-     "type": "cpu",
+     "number": 464,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8276L"
+     "name": "8276L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 465,
-     "type": "cpu",
+     "number": 465,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8276M"
+     "name": "8276M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 466,
-     "type": "cpu",
+     "number": 466,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8279W"
+     "name": "8279W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 467,
-     "type": "cpu",
+     "number": 467,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8280"
+     "name": "8280",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 468,
-     "type": "cpu",
+     "number": 468,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8280L"
+     "name": "8280L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 469,
-     "type": "cpu",
+     "number": 469,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8280M"
+     "name": "8280M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 470,
-     "type": "cpu",
+     "number": 470,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8284"
+     "name": "8284",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 471,
-     "type": "cpu",
+     "number": 471,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8336C"
+     "name": "8336C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 472,
-     "type": "cpu",
+     "number": 472,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8338C"
+     "name": "8338C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 473,
-     "type": "cpu",
+     "number": 473,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8341C"
+     "name": "8341C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 474,
-     "type": "cpu",
+     "number": 474,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8347C"
+     "name": "8347C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 475,
-     "type": "cpu",
+     "number": 475,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8351N"
+     "name": "8351N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 476,
-     "type": "cpu",
+     "number": 476,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8352M"
+     "name": "8352M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 477,
-     "type": "cpu",
+     "number": 477,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8352S"
+     "name": "8352S",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 478,
-     "type": "cpu",
+     "number": 478,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8352V"
+     "name": "8352V",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 479,
-     "type": "cpu",
+     "number": 479,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8325Y"
+     "name": "8325Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 480,
-     "type": "cpu",
+     "number": 480,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8353H"
+     "name": "8353H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 481,
-     "type": "cpu",
+     "number": 481,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8354H"
+     "name": "8354H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 482,
-     "type": "cpu",
+     "number": 482,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8356H"
+     "name": "8356H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 483,
-     "type": "cpu",
+     "number": 483,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8357C"
+     "name": "8357C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 484,
-     "type": "cpu",
+     "number": 484,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8358"
+     "name": "8358",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 485,
-     "type": "cpu",
+     "number": 485,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8358P"
+     "name": "8358P",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 486,
-     "type": "cpu",
+     "number": 486,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8360H"
+     "name": "8360H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 487,
-     "type": "cpu",
+     "number": 487,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8360HL"
+     "name": "8360HL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 488,
-     "type": "cpu",
+     "number": 488,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8360Y"
+     "name": "8360Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 489,
-     "type": "cpu",
+     "number": 489,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8361C"
+     "name": "8361C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 490,
-     "type": "cpu",
+     "number": 490,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8362"
+     "name": "8362",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 491,
-     "type": "cpu",
+     "number": 491,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8365B"
+     "name": "8365B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 492,
-     "type": "cpu",
+     "number": 492,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8368"
+     "name": "8368",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 493,
-     "type": "cpu",
+     "number": 493,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8368Q"
+     "name": "8368Q",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 494,
-     "type": "cpu",
+     "number": 494,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8369B"
+     "name": "8369B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 495,
-     "type": "cpu",
+     "number": 495,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8370C"
+     "name": "8370C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 496,
-     "type": "cpu",
+     "number": 496,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8372C"
+     "name": "8372C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 497,
-     "type": "cpu",
+     "number": 497,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8373C"
+     "name": "8373C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 498,
-     "type": "cpu",
+     "number": 498,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8374C"
+     "name": "8374C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 499,
-     "type": "cpu",
+     "number": 499,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8375C"
+     "name": "8375C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 500,
-     "type": "cpu",
+     "number": 500,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8376H"
+     "name": "8376H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 501,
-     "type": "cpu",
+     "number": 501,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8376HL"
+     "name": "8376HL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 502,
-     "type": "cpu",
+     "number": 502,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8377C"
+     "name": "8377C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 503,
-     "type": "cpu",
+     "number": 503,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8377D"
+     "name": "8377D",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 504,
-     "type": "cpu",
+     "number": 504,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8378A"
+     "name": "8378A",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 505,
-     "type": "cpu",
+     "number": 505,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8378C"
+     "name": "8378C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 506,
-     "type": "cpu",
+     "number": 506,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8380"
+     "name": "8380",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 507,
-     "type": "cpu",
+     "number": 507,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8380H"
+     "name": "8380H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 508,
-     "type": "cpu",
+     "number": 508,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8380HL"
+     "name": "8380HL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 509,
-     "type": "cpu",
+     "number": 509,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8444H"
+     "name": "8444H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 510,
-     "type": "cpu",
+     "number": 510,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8450H"
+     "name": "8450H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 511,
-     "type": "cpu",
+     "number": 511,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8452Y"
+     "name": "8452Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 512,
-     "type": "cpu",
+     "number": 512,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8454H"
+     "name": "8454H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 513,
-     "type": "cpu",
+     "number": 513,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8458P"
+     "name": "8458P",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 514,
-     "type": "cpu",
+     "number": 514,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8460H"
+     "name": "8460H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 515,
-     "type": "cpu",
+     "number": 515,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8460Y"
+     "name": "8460Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 516,
-     "type": "cpu",
+     "number": 516,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8461V"
+     "name": "8461V",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 517,
-     "type": "cpu",
+     "number": 517,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8468"
+     "name": "8468",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 518,
-     "type": "cpu",
+     "number": 518,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8468H"
+     "name": "8468H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 519,
-     "type": "cpu",
+     "number": 519,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8468V"
+     "name": "8468V",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 520,
-     "type": "cpu",
+     "number": 520,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8470"
+     "name": "8470",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 521,
-     "type": "cpu",
+     "number": 521,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8470C"
+     "name": "8470C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 522,
-     "type": "cpu",
+     "number": 522,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8470N"
+     "name": "8470N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 523,
-     "type": "cpu",
+     "number": 523,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8471N"
+     "name": "8471N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 524,
-     "type": "cpu",
+     "number": 524,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8480+"
+     "name": "8480+",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 525,
-     "type": "cpu",
+     "number": 525,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Platinum",
      "sottoserieb": "8000 Series",
-     "name": "8490H"
+     "name": "8490H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 526,
-     "type": "cpu",
+     "number": 526,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6122"
+     "name": "6122",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 527,
-     "type": "cpu",
+     "number": 527,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6126"
+     "name": "6126",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 528,
-     "type": "cpu",
+     "number": 528,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6126F"
+     "name": "6126F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 529,
-     "type": "cpu",
+     "number": 529,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6126T"
+     "name": "6126T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 530,
-     "type": "cpu",
+     "number": 530,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6127M"
+     "name": "6127M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 531,
-     "type": "cpu",
+     "number": 531,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6128"
+     "name": "6128",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 532,
-     "type": "cpu",
+     "number": 532,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6130"
+     "name": "6130",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 533,
-     "type": "cpu",
+     "number": 533,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "5130F"
+     "name": "5130F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 534,
-     "type": "cpu",
+     "number": 534,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6130T"
+     "name": "6130T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 535,
-     "type": "cpu",
+     "number": 535,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6132"
+     "name": "6132",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 536,
-     "type": "cpu",
+     "number": 536,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6133"
+     "name": "6133",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 537,
-     "type": "cpu",
+     "number": 537,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6134"
+     "name": "6134",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 538,
-     "type": "cpu",
+     "number": 538,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6134M"
+     "name": "6134M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 539,
-     "type": "cpu",
+     "number": 539,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6135"
+     "name": "6135",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 540,
-     "type": "cpu",
+     "number": 540,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6135M"
+     "name": "6135M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 541,
-     "type": "cpu",
+     "number": 541,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6136"
+     "name": "6136",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 542,
-     "type": "cpu",
+     "number": 542,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6137"
+     "name": "6137",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 543,
-     "type": "cpu",
+     "number": 543,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6137M"
+     "name": "6137M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 544,
-     "type": "cpu",
+     "number": 544,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6138"
+     "name": "6138",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 545,
-     "type": "cpu",
+     "number": 545,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6138F"
+     "name": "6138F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 546,
-     "type": "cpu",
+     "number": 546,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6138P"
+     "name": "6138P",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 547,
-     "type": "cpu",
+     "number": 547,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6138T"
+     "name": "6138T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 548,
-     "type": "cpu",
+     "number": 548,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6139"
+     "name": "6139",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 549,
-     "type": "cpu",
+     "number": 549,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6139M"
+     "name": "6139M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 550,
-     "type": "cpu",
+     "number": 550,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6140"
+     "name": "6140",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 551,
-     "type": "cpu",
+     "number": 551,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6140M"
+     "name": "6140M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 552,
-     "type": "cpu",
+     "number": 552,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6142"
+     "name": "6142",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 553,
-     "type": "cpu",
+     "number": 553,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6142F"
+     "name": "6142F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 554,
-     "type": "cpu",
+     "number": 554,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6142M"
+     "name": "6142M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 555,
-     "type": "cpu",
+     "number": 555,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6143"
+     "name": "6143",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 556,
-     "type": "cpu",
+     "number": 556,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6144"
+     "name": "6144",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 557,
-     "type": "cpu",
+     "number": 557,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6145"
+     "name": "6145",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 558,
-     "type": "cpu",
+     "number": 558,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6146"
+     "name": "6146",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 559,
-     "type": "cpu",
+     "number": 559,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6148"
+     "name": "6148",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 560,
-     "type": "cpu",
+     "number": 560,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6148F"
+     "name": "6148F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 561,
-     "type": "cpu",
+     "number": 561,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6149"
+     "name": "6149",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 562,
-     "type": "cpu",
+     "number": 562,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6150"
+     "name": "6150",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 563,
-     "type": "cpu",
+     "number": 563,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6151"
+     "name": "6151",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 564,
-     "type": "cpu",
+     "number": 564,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6152"
+     "name": "6152",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 565,
-     "type": "cpu",
+     "number": 565,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6154"
+     "name": "6154",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 566,
-     "type": "cpu",
+     "number": 566,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6155"
+     "name": "6155",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 567,
-     "type": "cpu",
+     "number": 567,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6159"
+     "name": "6159",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 568,
-     "type": "cpu",
+     "number": 568,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6161"
+     "name": "6161",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 569,
-     "type": "cpu",
+     "number": 569,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6162"
+     "name": "6162",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 570,
-     "type": "cpu",
+     "number": 570,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6164"
+     "name": "6164",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 571,
-     "type": "cpu",
+     "number": 571,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6208U"
+     "name": "6208U",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 572,
-     "type": "cpu",
+     "number": 572,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6209U"
+     "name": "6209U",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 573,
-     "type": "cpu",
+     "number": 573,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6210U"
+     "name": "6210U",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 574,
-     "type": "cpu",
+     "number": 574,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6212U"
+     "name": "6212U",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 575,
-     "type": "cpu",
+     "number": 575,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6222"
+     "name": "6222",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 576,
-     "type": "cpu",
+     "number": 576,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6222V"
+     "name": "6222V",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 577,
-     "type": "cpu",
+     "number": 577,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6226"
+     "name": "6226",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 578,
-     "type": "cpu",
+     "number": 578,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6226R"
+     "name": "6226R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 579,
-     "type": "cpu",
+     "number": 579,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6230"
+     "name": "6230",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 580,
-     "type": "cpu",
+     "number": 580,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6230N"
+     "name": "6230N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 581,
-     "type": "cpu",
+     "number": 581,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6230R"
+     "name": "6230R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 582,
-     "type": "cpu",
+     "number": 582,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6230T"
+     "name": "6230T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 583,
-     "type": "cpu",
+     "number": 583,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6231"
+     "name": "6231",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 584,
-     "type": "cpu",
+     "number": 584,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6231C"
+     "name": "6231C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 585,
-     "type": "cpu",
+     "number": 585,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6233"
+     "name": "6233",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 586,
-     "type": "cpu",
+     "number": 586,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6234"
+     "name": "6234",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 587,
-     "type": "cpu",
+     "number": 587,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6238"
+     "name": "6238",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 588,
-     "type": "cpu",
+     "number": 588,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6238L"
+     "name": "6238L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 589,
-     "type": "cpu",
+     "number": 589,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6238R"
+     "name": "6238R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 590,
-     "type": "cpu",
+     "number": 590,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6238T"
+     "name": "6238T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 591,
-     "type": "cpu",
+     "number": 591,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6240"
+     "name": "6240",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 592,
-     "type": "cpu",
+     "number": 592,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6240C"
+     "name": "6240C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 593,
-     "type": "cpu",
+     "number": 593,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6240L"
+     "name": "6240L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 594,
-     "type": "cpu",
+     "number": 594,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6240M"
+     "name": "6240M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 595,
-     "type": "cpu",
+     "number": 595,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6240R"
+     "name": "6240R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 596,
-     "type": "cpu",
+     "number": 596,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6240Y"
+     "name": "6240Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 597,
-     "type": "cpu",
+     "number": 597,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6241W"
+     "name": "6241W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 598,
-     "type": "cpu",
+     "number": 598,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6242"
+     "name": "6242",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 599,
-     "type": "cpu",
+     "number": 599,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6242R"
+     "name": "6242R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 600,
-     "type": "cpu",
+     "number": 600,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6244"
+     "name": "6244",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 601,
-     "type": "cpu",
+     "number": 601,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6245W"
+     "name": "6245W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 602,
-     "type": "cpu",
+     "number": 602,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6246"
+     "name": "6246",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 603,
-     "type": "cpu",
+     "number": 603,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6246R"
+     "name": "6246R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 604,
-     "type": "cpu",
+     "number": 604,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6248"
+     "name": "6248",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 605,
-     "type": "cpu",
+     "number": 605,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6248R"
+     "name": "6248R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 606,
-     "type": "cpu",
+     "number": 606,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6249C"
+     "name": "6249C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 607,
-     "type": "cpu",
+     "number": 607,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6250"
+     "name": "6250",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 608,
-     "type": "cpu",
+     "number": 608,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6250"
+     "name": "6250",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 609,
-     "type": "cpu",
+     "number": 609,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6250L"
+     "name": "6250L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 610,
-     "type": "cpu",
+     "number": 610,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6252"
+     "name": "6252",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 611,
-     "type": "cpu",
+     "number": 611,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6252N"
+     "name": "6252N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 612,
-     "type": "cpu",
+     "number": 612,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6252CL"
+     "name": "6252CL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 613,
-     "type": "cpu",
+     "number": 613,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6253W"
+     "name": "6253W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 614,
-     "type": "cpu",
+     "number": 614,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6254"
+     "name": "6254",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 615,
-     "type": "cpu",
+     "number": 615,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6256"
+     "name": "6256",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 616,
-     "type": "cpu",
+     "number": 616,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6258R"
+     "name": "6258R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 617,
-     "type": "cpu",
+     "number": 617,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6261"
+     "name": "6261",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 618,
-     "type": "cpu",
+     "number": 618,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6262"
+     "name": "6262",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 619,
-     "type": "cpu",
+     "number": 619,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6262V"
+     "name": "6262V",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 620,
-     "type": "cpu",
+     "number": 620,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6263CY"
+     "name": "6263CY",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 621,
-     "type": "cpu",
+     "number": 621,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6266C"
+     "name": "6266C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 622,
-     "type": "cpu",
+     "number": 622,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6267"
+     "name": "6267",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 623,
-     "type": "cpu",
+     "number": 623,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6267C"
+     "name": "6267C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 624,
-     "type": "cpu",
+     "number": 624,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6268CL"
+     "name": "6268CL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 625,
-     "type": "cpu",
+     "number": 625,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6269Y"
+     "name": "6269Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 626,
-     "type": "cpu",
+     "number": 626,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6271C"
+     "name": "6271C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 627,
-     "type": "cpu",
+     "number": 627,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6273C"
+     "name": "6273C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 628,
-     "type": "cpu",
+     "number": 628,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6278C"
+     "name": "6278C",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 629,
-     "type": "cpu",
+     "number": 629,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6290"
+     "name": "6290",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 630,
-     "type": "cpu",
+     "number": 630,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6312U"
+     "name": "6312U",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 631,
-     "type": "cpu",
+     "number": 631,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6314U"
+     "name": "6314U",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 632,
-     "type": "cpu",
+     "number": 632,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6326"
+     "name": "6326",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 633,
-     "type": "cpu",
+     "number": 633,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6328H"
+     "name": "6328H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 634,
-     "type": "cpu",
+     "number": 634,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6328HL"
+     "name": "6328HL",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 635,
-     "type": "cpu",
+     "number": 635,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6330"
+     "name": "6330",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 636,
-     "type": "cpu",
+     "number": 636,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6330H"
+     "name": "6330H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 637,
-     "type": "cpu",
+     "number": 637,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6330N"
+     "name": "6330N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 638,
-     "type": "cpu",
+     "number": 638,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6334"
+     "name": "6334",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 639,
-     "type": "cpu",
+     "number": 639,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6336Y"
+     "name": "6336Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 640,
-     "type": "cpu",
+     "number": 640,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6338"
+     "name": "6338",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 641,
-     "type": "cpu",
+     "number": 641,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6338N"
+     "name": "6338N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 642,
-     "type": "cpu",
+     "number": 642,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6338T"
+     "name": "6338T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 643,
-     "type": "cpu",
+     "number": 643,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "5342"
+     "name": "5342",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 644,
-     "type": "cpu",
+     "number": 644,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6346"
+     "name": "6346",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 645,
-     "type": "cpu",
+     "number": 645,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6348"
+     "name": "6348",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 646,
-     "type": "cpu",
+     "number": 646,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6348H"
+     "name": "6348H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 647,
-     "type": "cpu",
+     "number": 647,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6354"
+     "name": "6354",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 648,
-     "type": "cpu",
+     "number": 648,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6414U"
+     "name": "6414U",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 649,
-     "type": "cpu",
+     "number": 649,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6416H"
+     "name": "6416H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 650,
-     "type": "cpu",
+     "number": 650,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6418H"
+     "name": "6418H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 651,
-     "type": "cpu",
+     "number": 651,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6421N"
+     "name": "6421N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 652,
-     "type": "cpu",
+     "number": 652,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6426Y"
+     "name": "6426Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 653,
-     "type": "cpu",
+     "number": 653,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6428N"
+     "name": "6428N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 654,
-     "type": "cpu",
+     "number": 654,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6430"
+     "name": "6430",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 655,
-     "type": "cpu",
+     "number": 655,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6343"
+     "name": "6343",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 656,
-     "type": "cpu",
+     "number": 656,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6343H"
+     "name": "6343H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 657,
-     "type": "cpu",
+     "number": 657,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6438M"
+     "name": "6438M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 658,
-     "type": "cpu",
+     "number": 658,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6438N"
+     "name": "6438N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 659,
-     "type": "cpu",
+     "number": 659,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6438Y+"
+     "name": "6438Y+",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 660,
-     "type": "cpu",
+     "number": 660,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6441V"
+     "name": "6441V",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 661,
-     "type": "cpu",
+     "number": 661,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6444Y"
+     "name": "6444Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 662,
-     "type": "cpu",
+     "number": 662,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6448H"
+     "name": "6448H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 663,
-     "type": "cpu",
+     "number": 663,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6448Y"
+     "name": "6448Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 664,
-     "type": "cpu",
+     "number": 664,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6454S"
+     "name": "6454S",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 665,
-     "type": "cpu",
+     "number": 665,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "6000 Series",
-     "name": "6454Y+"
+     "name": "6454Y+",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 666,
-     "type": "cpu",
+     "number": 666,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5115"
+     "name": "5115",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 667,
-     "type": "cpu",
+     "number": 667,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5117"
+     "name": "5117",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 668,
-     "type": "cpu",
+     "number": 668,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5117F"
+     "name": "5117F",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 669,
-     "type": "cpu",
+     "number": 669,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5118"
+     "name": "5118",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 670,
-     "type": "cpu",
+     "number": 670,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5119T"
+     "name": "5119T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 671,
-     "type": "cpu",
+     "number": 671,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5120"
+     "name": "5120",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 672,
-     "type": "cpu",
+     "number": 672,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5120T"
+     "name": "5120T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 673,
-     "type": "cpu",
+     "number": 673,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5122"
+     "name": "5122",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 674,
-     "type": "cpu",
+     "number": 674,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5231W"
+     "name": "5231W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 675,
-     "type": "cpu",
+     "number": 675,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5215"
+     "name": "5215",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 676,
-     "type": "cpu",
+     "number": 676,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5215L"
+     "name": "5215L",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 677,
-     "type": "cpu",
+     "number": 677,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5215M"
+     "name": "5215M",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 678,
-     "type": "cpu",
+     "number": 678,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5215R"
+     "name": "5215R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 679,
-     "type": "cpu",
+     "number": 679,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5216W"
+     "name": "5216W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 680,
-     "type": "cpu",
+     "number": 680,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5217"
+     "name": "5217",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 681,
-     "type": "cpu",
+     "number": 681,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5218"
+     "name": "5218",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 682,
-     "type": "cpu",
+     "number": 682,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5218B"
+     "name": "5218B",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 683,
-     "type": "cpu",
+     "number": 683,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5218N"
+     "name": "5218N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 684,
-     "type": "cpu",
+     "number": 684,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5218R"
+     "name": "5218R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 685,
-     "type": "cpu",
+     "number": 685,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5218T"
+     "name": "5218T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 686,
-     "type": "cpu",
+     "number": 686,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5219Y"
+     "name": "5219Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 687,
-     "type": "cpu",
+     "number": 687,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5220"
+     "name": "5220",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 688,
-     "type": "cpu",
+     "number": 688,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5220R"
+     "name": "5220R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 689,
-     "type": "cpu",
+     "number": 689,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5220S"
+     "name": "5220S",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 690,
-     "type": "cpu",
+     "number": 690,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5220T"
+     "name": "5220T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 691,
-     "type": "cpu",
+     "number": 691,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5222"
+     "name": "5222",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 692,
-     "type": "cpu",
+     "number": 692,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5315Y"
+     "name": "5315Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 693,
-     "type": "cpu",
+     "number": 693,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5317"
+     "name": "5317",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 694,
-     "type": "cpu",
+     "number": 694,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5318H"
+     "name": "5318H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 695,
-     "type": "cpu",
+     "number": 695,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5318N"
+     "name": "5318N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 696,
-     "type": "cpu",
+     "number": 696,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5318Y"
+     "name": "5318Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 697,
-     "type": "cpu",
+     "number": 697,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5320"
+     "name": "5320",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 698,
-     "type": "cpu",
+     "number": 698,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "6320H"
+     "name": "6320H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 699,
-     "type": "cpu",
+     "number": 699,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5320T"
+     "name": "5320T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 700,
-     "type": "cpu",
+     "number": 700,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5411N"
+     "name": "5411N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 701,
-     "type": "cpu",
+     "number": 701,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5415+"
+     "name": "5415+",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 702,
-     "type": "cpu",
+     "number": 702,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5416S"
+     "name": "5416S",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 703,
-     "type": "cpu",
+     "number": 703,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5418N"
+     "name": "5418N",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 704,
-     "type": "cpu",
+     "number": 704,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5418Y"
+     "name": "5418Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 705,
-     "type": "cpu",
+     "number": 705,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Gold",
      "sottoserieb": "5000 Series",
-     "name": "5420+"
+     "name": "5420+",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 706,
-     "type": "cpu",
+     "number": 706,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4106H"
+     "name": "4106H",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 707,
-     "type": "cpu",
+     "number": 707,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4108"
+     "name": "4108",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 708,
-     "type": "cpu",
+     "number": 708,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4109T"
+     "name": "4109T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 709,
-     "type": "cpu",
+     "number": 709,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4110"
+     "name": "4110",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 710,
-     "type": "cpu",
+     "number": 710,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4112"
+     "name": "4112",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 711,
-     "type": "cpu",
+     "number": 711,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4114"
+     "name": "4114",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 712,
-     "type": "cpu",
+     "number": 712,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4114T"
+     "name": "4114T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 713,
-     "type": "cpu",
+     "number": 713,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4116"
+     "name": "4116",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 714,
-     "type": "cpu",
+     "number": 714,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4114T"
+     "name": "4114T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 715,
-     "type": "cpu",
+     "number": 715,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4116"
+     "name": "4116",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 716,
-     "type": "cpu",
+     "number": 716,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4116T"
+     "name": "4116T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 717,
-     "type": "cpu",
+     "number": 717,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4123"
+     "name": "4123",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 718,
-     "type": "cpu",
+     "number": 718,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4208"
+     "name": "4208",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 719,
-     "type": "cpu",
+     "number": 719,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4209T"
+     "name": "4209T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 720,
-     "type": "cpu",
+     "number": 720,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4210"
+     "name": "4210",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 721,
-     "type": "cpu",
+     "number": 721,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4210R"
+     "name": "4210R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 722,
-     "type": "cpu",
+     "number": 722,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4210T"
+     "name": "4210T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 723,
-     "type": "cpu",
+     "number": 723,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4211W"
+     "name": "4211W",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 724,
-     "type": "cpu",
+     "number": 724,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4214"
+     "name": "4214",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 725,
-     "type": "cpu",
+     "number": 725,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4214R"
+     "name": "4214R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 726,
-     "type": "cpu",
+     "number": 726,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4214Y"
+     "name": "4214Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 727,
-     "type": "cpu",
+     "number": 727,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4215"
+     "name": "4215",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 728,
-     "type": "cpu",
+     "number": 728,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4215R"
+     "name": "4215R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 729,
-     "type": "cpu",
+     "number": 729,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4216"
+     "name": "4216",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 730,
-     "type": "cpu",
+     "number": 730,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4216R"
+     "name": "4216R",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 731,
-     "type": "cpu",
+     "number": 731,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4309Y"
+     "name": "4309Y",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 732,
-     "type": "cpu",
+     "number": 732,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4310"
+     "name": "4310",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 733,
-     "type": "cpu",
+     "number": 733,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4310T"
+     "name": "4310T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 734,
-     "type": "cpu",
+     "number": 734,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4314"
+     "name": "4314",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 735,
-     "type": "cpu",
+     "number": 735,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4316"
+     "name": "4316",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 736,
-     "type": "cpu",
+     "number": 736,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4410"
+     "name": "4410",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 737,
-     "type": "cpu",
+     "number": 737,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Silver",
      "sottoserieb": "4000 Series",
-     "name": "4410T"
+     "name": "4410T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 738,
-     "type": "cpu",
+     "number": 738,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Bronze",
      "sottoserieb": "3000 Series",
-     "name": "4314"
+     "name": "4314",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 739,
-     "type": "cpu",
+     "number": 739,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Bronze",
      "sottoserieb": "3000 Series",
-     "name": "4316"
+     "name": "4316",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 740,
-     "type": "cpu",
+     "number": 740,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Bronze",
      "sottoserieb": "3000 Series",
-     "name": "4410"
+     "name": "4410",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 741,
-     "type": "cpu",
+     "number": 741,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Bronze",
      "sottoserieb": "3000 Series",
-     "name": "4410T"
+     "name": "4410T",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     },
     {
-     "id_number": 742,
-     "type": "cpu",
+     "number": 742,
      "scope": "srever",
      "brand": "Intel",
      "serie": "Xeon",
      "sottoseria": "Bronze",
      "sottoserieb": "3000 Series",
-     "name": "4416+"
+     "name": "4416+",
+     "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
     }
-  }`);
+   ]}`);
   
-const Nitems=5;
-
-function paginator(Npag){
+  const Nitems=5;
+  
+  function paginator(Npag){
     document.getElementById("content-name").innerHTML="";
     let result=[];
     let start=Nitems*Npag;
@@ -7358,9 +7358,9 @@ function paginator(Npag){
           </div>`);
         }
     }
-}
-
-function next(){
+  }
+  
+  function next(){
     let num=document.getElementById("Npag");
     console.log(num.textContent<itemList.cpuList.length/Nitems)
     if(num.textContent<itemList.cpuList.length/Nitems){
@@ -7368,15 +7368,15 @@ function next(){
         num.innerHTML=(parseInt(num.textContent)+1).toString();
     }
     paginator(num.textContent-1);
-}
-
-function before(){
+  }
+  
+  function before(){
     let num=document.getElementById("Npag");
     if(num.textContent>1){
         console.log(parseInt(num.textContent)-1);
         num.innerHTML=(parseInt(num.textContent)-1).toString();
     }
     paginator(num.textContent-1);
-}
-
-paginator(0);
+  }
+  
+  paginator(0);

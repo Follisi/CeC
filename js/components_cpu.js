@@ -7335,18 +7335,18 @@ const itemList = JSON.parse(`{ "cpuList" : [
 const Nitems=5;
 
 function paginator(Npag){
-  document.getElementById("content").innerHTML="";
+  document.getElementById("content-name").innerHTML="";
   let result=[];
   let start=Nitems*Npag;
-  if(start<itemList.length){
+  if(start<itemList.cpuList.length){
       for(let i=start;i<start+Nitems;i++){
-          if(itemList[i]!==undefined){
-              result.push(itemList[i]);
+          if(itemList.cpuList[i]!==undefined){
+              result.push(itemList.cpuList[i]);
           }
       }
       console.log(result);
       for(let i=0;i<result.length;i++){
-          document.getElementById("content").insertAdjacentHTML("beforeend",`<div class="col mb-5 item_shop">
+          document.getElementById("content-name").insertAdjacentHTML("beforeend",`<div class="col mb-5 item_shop">
           <div class="comp-cpu card h-100">
             <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
             <div class="card-body p-4">
@@ -7362,8 +7362,8 @@ function paginator(Npag){
 
 function next(){
   let num=document.getElementById("Npag");
-  console.log(num.textContent<itemList.length/Nitems)
-  if(num.textContent<itemList.length/Nitems){
+  console.log(num.textContent<itemList.cpuList.length/Nitems)
+  if(num.textContent<itemList.cpuList.length/Nitems){
       console.log(parseInt(num.textContent)+1);
       num.innerHTML=(parseInt(num.textContent)+1).toString();
   }

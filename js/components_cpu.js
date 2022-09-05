@@ -7341,7 +7341,7 @@ function paginator(Npag){
   if(start<itemList.cpuList.length){
       for(let i=start;i<start+Nitems;i++){
           if(itemList.cpuList[i]!==undefined){
-              result.push(itemList.cpuList[i]);
+              result.push(itemList.cpuList[i].brand + " " + itemList.cpuList[i].serie + " " + itemList.cpuList[i].sottoseriea + " " + itemList.cpuList[i].name);
           }
       }
       console.log(result);
@@ -7351,7 +7351,9 @@ function paginator(Npag){
             <img id="content-img" class="object-img card-img-top" src="" alt="preview non disponibile">
             <div class="card-body p-4">
               <div class="text-center">
-                <h5 id="content-name" class="object-name fw-bolder">${result[i]}</h5>
+                <h5 id="content-name" class="object-name fw-bolder">
+                  ${result[i]}
+                </h5>
               </div>
             </div>
           </div>

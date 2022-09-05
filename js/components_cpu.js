@@ -7341,7 +7341,7 @@ function paginator(Npag){
   if(start<itemList.cpuList.length){
       for(let i=start;i<start+Nitems;i++){
           if(itemList.cpuList[i]!==undefined){
-              result.push(itemList.cpuList[i].brand + " " + itemList.cpuList[i].serie + " " + itemList.cpuList[i].sottoseriea + " " + itemList.cpuList[i].name);
+              result.push(itemList.cpuList[i].brand + " " + itemList.cpuList[i].serie + " " + itemList.cpuList[i].sottoseria + " " + itemList.cpuList[i].name);
           }
       }
       console.log(result);

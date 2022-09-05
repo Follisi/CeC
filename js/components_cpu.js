@@ -1314,6 +1314,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "4000 Series",
    "name": "Gold PRO 4150 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1323,6 +1324,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "3000 Series",
    "name": "3000 G",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1332,6 +1334,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "3000 Series",
    "name": "Silver 3050 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1341,6 +1344,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "3000 Series",
    "name": "Gold 3150 G",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1350,6 +1354,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "3000 Series",
    "name": "Gold 3150 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1359,6 +1364,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "3000 Series",
    "name": "Silver PRO 3125 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1368,6 +1374,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "3000 Series",
    "name": "Gold PRO 3150 G",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1377,6 +1384,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "3000 Series",
    "name": "Gold PRO 3150 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1386,6 +1394,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "300 Series",
    "name": "300 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1395,6 +1404,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "300 Series",
    "name": "PRO 300 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1404,6 +1414,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "200 Series",
    "name": "200 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1413,6 +1424,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "200 Series",
    "name": "220 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1422,6 +1434,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "200 Series",
    "name": "240 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1431,6 +1444,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "desktop",
    "brand": "AMD",
    "serie": "Athlon",
+   "sottoseria": "Series",
    "sottoserieb": "200 Series",
    "name": "PRO 200 GE",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1440,6 +1454,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9124",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1449,6 +1464,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9174",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1458,6 +1474,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9224",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1467,6 +1484,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9254",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1476,6 +1494,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9274 F",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1485,6 +1504,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9334",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1494,6 +1514,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9354",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1503,6 +1524,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9354 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1512,6 +1534,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9454",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1521,6 +1544,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9454 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1530,6 +1554,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9534",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1539,6 +1564,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9534 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1548,6 +1574,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "9004 Series",
    "name": "9664",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1557,6 +1584,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "72F3",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1566,6 +1594,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7313",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1575,6 +1604,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7313 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1584,6 +1614,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7343",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1593,6 +1624,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7373 X",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1602,6 +1634,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "73F3",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1611,6 +1644,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7413",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1620,6 +1654,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7443",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1629,6 +1664,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7443 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1638,6 +1674,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7453",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1647,6 +1684,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7473 X",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1656,6 +1694,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "74F3",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1665,6 +1704,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7513",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1674,6 +1714,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7543",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1683,6 +1724,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7543 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1692,6 +1734,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7573 X",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1701,6 +1744,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "75F3",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1710,6 +1754,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7643",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1719,6 +1764,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7663",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1728,6 +1774,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7713",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1737,6 +1784,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7713 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1746,6 +1794,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7763",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1755,6 +1804,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7003 Series",
    "name": "7773 X",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1764,6 +1814,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7232 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1773,6 +1824,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7252",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1782,6 +1834,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7262",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1791,6 +1844,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7272",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1800,6 +1854,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7282",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1809,6 +1864,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7302",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1818,6 +1874,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7302 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1827,6 +1884,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7352",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1836,6 +1894,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7402",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1845,6 +1904,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7402 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1854,6 +1914,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7452",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1863,6 +1924,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7502",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1872,6 +1934,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7502 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1881,6 +1944,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7532",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1890,6 +1954,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7542",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1899,6 +1964,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7552",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1908,6 +1974,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7642",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1917,6 +1984,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7662",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1926,6 +1994,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7702",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1935,6 +2004,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7702 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1944,6 +2014,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7742",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1953,6 +2024,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7F32",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1962,6 +2034,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7F52",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1971,6 +2044,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7F72",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1980,6 +2054,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7002 Series",
    "name": "7H12",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1989,6 +2064,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7251",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -1998,6 +2074,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7261",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2007,6 +2084,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7281",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2016,6 +2094,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7301",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2025,6 +2104,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7351",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2034,6 +2114,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7351 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2043,6 +2124,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7371",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2052,6 +2134,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7401",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2061,6 +2144,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7401 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2070,6 +2154,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7451",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2079,6 +2164,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7501",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2088,6 +2174,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7551",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2097,6 +2184,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7551 P",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"
@@ -2106,6 +2194,7 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "scope": "server",
    "brand": "AMD",
    "serie": "EPYC",
+   "sottoseria": "Series",
    "sottoserieb": "7001 Series",
    "name": "7601",
    "imglink": ".\/img\/img\/database_img_elements\/amd_imgs\/amd_default_img.png"

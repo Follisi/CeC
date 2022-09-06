@@ -2209,7 +2209,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 189,
@@ -2221,7 +2221,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 190,
@@ -2233,7 +2233,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 191,
@@ -2245,7 +2245,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 192,
@@ -2257,7 +2257,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 193,
@@ -2269,7 +2269,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 194,
@@ -2281,7 +2281,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 195,
@@ -2293,7 +2293,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 196,
@@ -2305,7 +2305,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 197,
@@ -2317,7 +2317,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 198,
@@ -2329,7 +2329,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 199,
@@ -2341,7 +2341,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ITX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 200,
@@ -2353,7 +2353,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 201,
@@ -2365,7 +2365,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 202,
@@ -2377,7 +2377,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 203,
@@ -2389,7 +2389,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 204,
@@ -2401,7 +2401,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ITX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 205,
@@ -2413,7 +2413,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 206,
@@ -2425,7 +2425,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 207,
@@ -2437,7 +2437,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 208,
@@ -2449,7 +2449,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 209,
@@ -2461,7 +2461,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 210,
@@ -2473,7 +2473,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 211,
@@ -2485,7 +2485,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 212,
@@ -2497,7 +2497,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 213,
@@ -2509,7 +2509,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 214,
@@ -2521,7 +2521,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 215,
@@ -2533,7 +2533,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 216,
@@ -2545,7 +2545,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 217,
@@ -2557,7 +2557,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 218,
@@ -2569,7 +2569,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 219,
@@ -2581,7 +2581,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 220,
@@ -2593,7 +2593,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 221,
@@ -2605,7 +2605,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 222,
@@ -2617,7 +2617,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ITX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 223,
@@ -2629,7 +2629,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 224,
@@ -2641,7 +2641,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 225,
@@ -2653,7 +2653,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 226,
@@ -2665,7 +2665,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 227,
@@ -2677,7 +2677,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 228,
@@ -2689,7 +2689,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 229,
@@ -2701,7 +2701,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 230,
@@ -2713,7 +2713,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 231,
@@ -2725,7 +2725,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 232,
@@ -2737,7 +2737,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 233,
@@ -2749,7 +2749,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 234,
@@ -2761,7 +2761,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 235,
@@ -2773,7 +2773,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 236,
@@ -2785,7 +2785,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 237,
@@ -2797,7 +2797,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "sTRX4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 238,
@@ -2809,7 +2809,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 2066",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 239,
@@ -2821,7 +2821,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 2066",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 240,
@@ -2833,7 +2833,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 2066",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 241,
@@ -2845,7 +2845,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ITX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 242,
@@ -2857,7 +2857,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "AMD",
    "socket": "TR4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 243,
@@ -2869,7 +2869,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 244,
@@ -2881,7 +2881,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 245,
@@ -2893,7 +2893,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 246,
@@ -2905,7 +2905,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 247,
@@ -2917,7 +2917,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 248,
@@ -2929,7 +2929,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mITX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 249,
@@ -2941,7 +2941,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ITX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 250,
@@ -2953,7 +2953,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 251,
@@ -2965,7 +2965,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 252,
@@ -2977,7 +2977,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 253,
@@ -2989,7 +2989,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "AMD",
    "socket": "AM4",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 254,
@@ -3000,7 +3000,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 2066",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 255,
@@ -3012,7 +3012,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 2066",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 256,
@@ -3024,7 +3024,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 2066",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 257,
@@ -3036,7 +3036,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 2066",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 258,
@@ -3047,7 +3047,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 3647",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 259,
@@ -3059,7 +3059,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 260,
@@ -3071,7 +3071,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 261,
@@ -3083,7 +3083,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 262,
@@ -3095,7 +3095,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 263,
@@ -3107,7 +3107,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 264,
@@ -3119,7 +3119,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1700",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 265,
@@ -3131,7 +3131,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 266,
@@ -3143,7 +3143,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 267,
@@ -3155,7 +3155,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 268,
@@ -3167,7 +3167,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 269,
@@ -3179,7 +3179,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 270,
@@ -3191,7 +3191,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 271,
@@ -3203,7 +3203,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 272,
@@ -3215,7 +3215,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1200",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 273,
@@ -3227,7 +3227,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 274,
@@ -3239,7 +3239,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 275,
@@ -3251,7 +3251,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 276,
@@ -3263,7 +3263,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 277,
@@ -3275,7 +3275,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "mATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 278,
@@ -3287,7 +3287,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 279,
@@ -3299,7 +3299,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 280,
@@ -3311,7 +3311,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 281,
@@ -3323,7 +3323,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "EATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 282,
@@ -3335,7 +3335,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 283,
@@ -3347,7 +3347,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 284,
@@ -3359,7 +3359,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 285,
@@ -3371,7 +3371,7 @@ const itemList = JSON.parse(`{ "mbList" : [
    "format": "ATX",
    "brand_socket": "Intel",
    "socket": "LGA 1151",
-   "imglink": ".\/img\/img\/database_img_elements\/asusurog_imgs\/asusrog_default_img.png"
+   "imglink": ".\/img\/img\/database_img_elements\/asusrog_imgs\/asusrog_default_img.png"
   },
   {
    "number": 286,

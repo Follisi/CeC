@@ -8242,7 +8242,7 @@ function paginator(Npag){
   if(start<itemList.mbList.length){
       for(let i=start;i<start+Nitems;i++){
           if(itemList.mbList[i]!==undefined){
-              result.push(itemList.mbList[i].brand + " " + itemList.mbList[i].serie + " " + itemList.mbList[i].name);
+              result.push(itemList.mbList[i].brand + " " + itemList.mbList[i].serie + " " + itemList.mbList[i].sotto_nome + " " + itemList.mbList[i].name);
               resultB.push(itemList.mbList[i].imglink);
             }
       }

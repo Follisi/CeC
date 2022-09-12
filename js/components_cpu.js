@@ -7457,7 +7457,7 @@ function paginator(Npag) {
   }
 }
 function delElement (brandName) {
-  let parent = document.getElementById("item_shop");
+  let parent = document.getElementById("itemContainer");
   let contentBrand = document.getElementsByClassName("content-brand");
   for (let i = 0; i < parent.length; i++) {
     if (parent.contentBrand[i] !== "AMD") {

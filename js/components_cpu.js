@@ -7460,7 +7460,7 @@ function delElement (brandName) {
   let parent = document.getElementById("itemContainer");
   let contentBrand = document.getElementsByClassName("content-brand");
   for (let i = 0; i < parent.length; i++) {
-    if (parent.contentBrand[i] !== "AMD") {
+    if (parent.contentBrand[i].content !== "AMD") {
       parent.children[i].style.display = "none";
     }
   }

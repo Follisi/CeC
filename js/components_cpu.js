@@ -1,3 +1,4 @@
+const Nitems = 24;
 const itemList = JSON.parse(`{ "cpuList" : [
   {
    "number": 1,
@@ -7420,12 +7421,11 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
   }
  ]}`);
-const Nitems = 30;
 
 function paginator(Npag) {
   document.getElementById("itemContainer").innerHTML = "";
-  let checkBoxAmd = document.getElementById(amd - filter);
-  let checkBoxIntel = document.getElementById(intel - filter);
+  let checkBoxAmd = document.getElementById("amd-filter");
+  let checkBoxIntel = document.getElementById("intel-filter");
   let resultA = [];
   let resultB = [];
   let start = Nitems * Npag;

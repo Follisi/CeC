@@ -7431,28 +7431,25 @@ function paginator(Npag) {
   if (start < itemList.cpuList.length) {
     for (let i = start; i < start + Nitems; i++) {
       if (itemList.cpuList[i] !== undefined) {
-        resultA.push(itemList.cpuList[i].brand + " " + itemList.cpuListt[i].serie + " " + itemList.cpuList[i].sottoseria + " " + itemList.cpuList[i].name);
+        resultA.push(itemList.cpuList[i].brand + " " + itemList.cpuList[i].serie + " " + itemList.cpuList[i].sottoseria + " " + itemList.cpuList[i].name);
         resultB.push(itemList.cpuList[i].imglink);
       }
     }
-  }
-
-  console.log(resultA);
-  console.log(resultB);
-  for (let i = 0; i < resultA.length; i++) {
-    document.getElementById("itemContainer").insertAdjacentHTML("beforeend", `
-        <div class="col mb-5 item-shop">
-          <div class="comp-cpu card h-100">
-            <img id="content-img" class="object-img card-img-top" src="${resultB[i]}" alt="preview non disponibile">
-            <div class="card-body p-4">
-              <div class="text-center">              
-                <h5 class="content-name" class="object-name fw-bolder">
-                  <span class="content-complete-name">${resultA[i]}</span>
-                </h5>
-              </div>
-            </div>
+    console.log(resultA);
+    for (let i = 0; i < resultA.length; i++) {
+      document.getElementById("itemContainer").insertAdjacentHTML("beforeend", `<div class="col mb-5 item_shop">
+      <div class="comp-mb card h-100">
+        <img id="content-img" class="object-img card-img-top" src="${resultB[i]}" alt="preview non disponibile">
+        <div class="card-body p-4">
+          <div class="text-center">
+            <h5 id="content-name" class="object-name fw-bolder">
+              ${resultA[i]}
+            </h5>
           </div>
-        </div>`);
+        </div>
+      </div>
+    </div>`);
+    }
   }
 }
 

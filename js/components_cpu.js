@@ -7422,47 +7422,39 @@ const itemList = JSON.parse(`{ "cpuList" : [
  ]}`);
 
 const Nitems = 30;
+var resultA = [];
+var resultB = [];
+var start = Nitems * Npag;
+var comp = document.getElementsByClassName("comp-cpu");
 
 function paginator(Npag) {
+
   document.getElementById("itemContainer").innerHTML = "";
-  var resultA = [];
-  var resultB = [];
-  var resultC = [];
-  var start = Nitems * Npag;
-  var checkBoxIntel = document.getElementById("intel-filter");
-  var checkBoxAmd = document.getElementById("amd-filter");
   if (start < itemList.cpuList.length) {
     for (let i = start; i < start + Nitems; i++) {
-      resultA.push(itemList.cpuList[i].brand);
-      resultB.push(" " + itemList.cpuList[i].serie + " " + itemList.cpuList[i].sottoseria + " " + itemList.cpuList[i].name);
-      resultC.push(itemList.cpuList[i].imglink);
+      if (itemList.cpuList[i] !== undefined) {
+        resultA.push(itemList.cpuList[i].brand + " " + itemList.cpuListt[i].serie + " " + itemList.cpuList[i].sottoseria + " " + itemList.cpuList[i].name);
+        resultB.push(itemList.cpuList[i].imglink);
+      }
     }
   }
+
   console.log(resultA);
+  console.log(resultB);
   for (let i = 0; i < resultA.length; i++) {
     document.getElementById("itemContainer").insertAdjacentHTML("beforeend", `
-        <div class="col mb-5 item_shop">
+        <div class="col mb-5 item-shop">
           <div class="comp-cpu card h-100">
-            <img id="content-img" class="object-img card-img-top" src="${resultC[i]}" alt="preview non disponibile">
+            <img id="content-img" class="object-img card-img-top" src="${resultB[i]}" alt="preview non disponibile">
             <div class="card-body p-4">
               <div class="text-center">              
                 <h5 class="content-name" class="object-name fw-bolder">
-                  <span class="content-brand">${resultA[i]}</span>
-                  <span class="content-complete-name">${resultB[i]}</span>
+                  <span class="content-complete-name">${resultA[i]}</span>
                 </h5>
               </div>
             </div>
           </div>
         </div>`);
-  }
-}
-function delElement (brandName) {
-  let parent = document.getElementById("itemContainer");
-  let contentBrand = document.getElementsByClassName("content-brand");
-  for (let i = 0; i < parent.length; i++) {
-    if (parent.contentBrand[i].content !== "AMD") {
-      parent.children[i].style.display = "none";
-    }
   }
 }
 

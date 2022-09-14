@@ -8232,23 +8232,23 @@ const itemList = JSON.parse(`{ "mbList" : [
   }
  ]}`);
 
-const Nitems=30;
+const Nitems = 30;
 
-function paginator(Npag){
-  document.getElementById("itemContainer").innerHTML="";
-  let result=[];
-  let resultB=[];
-  let start=Nitems*Npag;
-  if(start<itemList.mbList.length){
-      for(let i=start;i<start+Nitems;i++){
-          if(itemList.mbList[i]!==undefined){
-              result.push(itemList.mbList[i].brand + " " + itemList.mbList[i].serie + " " + itemList.mbList[i].sotto_nome + " " + itemList.mbList[i].name);
-              resultB.push(itemList.mbList[i].imglink);
-            }
+function paginator(Npag) {
+  document.getElementById("itemContainer").innerHTML = "";
+  let result = [];
+  let resultB = [];
+  let start = Nitems * Npag;
+  if (start < itemList.mbList.length) {
+    for (let i = start; i < start + Nitems; i++) {
+      if (itemList.mbList[i] !== undefined) {
+        result.push(itemList.mbList[i].brand + " " + itemList.mbList[i].serie + " " + itemList.mbList[i].sotto_nome + " " + itemList.mbList[i].name);
+        resultB.push(itemList.mbList[i].imglink);
       }
-      console.log(result);
-      for(let i=0;i<result.length;i++){
-          document.getElementById("itemContainer").insertAdjacentHTML("beforeend",`<div class="col mb-5 item_shop">
+    }
+    console.log(result);
+    for (let i = 0; i < result.length; i++) {
+      document.getElementById("itemContainer").insertAdjacentHTML("beforeend", `<div class="col mb-5 item_shop">
           <div class="comp-mb card h-100">
             <img id="content-img" class="object-img card-img-top" src="${resultB[i]}" alt="preview non disponibile">
             <div class="card-body p-4">
@@ -8260,27 +8260,27 @@ function paginator(Npag){
             </div>
           </div>
         </div>`);
-      }
+    }
   }
 }
 
-function next(){
-  let num=document.getElementById("Npag");
-  console.log(num.textContent<itemList.mbList.length/Nitems)
-  if(num.textContent<itemList.mbList.length/Nitems){
-      console.log(parseInt(num.textContent)+1);
-      num.innerHTML=(parseInt(num.textContent)+1).toString();
+function next() {
+  let num = document.getElementById("Npag");
+  console.log(num.textContent < itemList.mbList.length / Nitems)
+  if (num.textContent < itemList.mbList.length / Nitems) {
+    console.log(parseInt(num.textContent) + 1);
+    num.innerHTML = (parseInt(num.textContent) + 1).toString();
   }
-  paginator(num.textContent-1);
+  paginator(num.textContent - 1);
 }
 
-function before(){
-  let num=document.getElementById("Npag");
-  if(num.textContent>1){
-      console.log(parseInt(num.textContent)-1);
-      num.innerHTML=(parseInt(num.textContent)-1).toString();
+function before() {
+  let num = document.getElementById("Npag");
+  if (num.textContent > 1) {
+    console.log(parseInt(num.textContent) - 1);
+    num.innerHTML = (parseInt(num.textContent) - 1).toString();
   }
-  paginator(num.textContent-1);
+  paginator(num.textContent - 1);
 }
 
 paginator(0);

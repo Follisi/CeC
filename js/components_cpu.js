@@ -7422,14 +7422,12 @@ const itemList = JSON.parse(`{ "cpuList" : [
  ]}`);
 
 const Nitems = 30;
-var resultA = [];
-var resultB = [];
-var start = Nitems * Npag;
-var comp = document.getElementsByClassName("comp-cpu");
 
 function paginator(Npag) {
-
   document.getElementById("itemContainer").innerHTML = "";
+  let resultA = [];
+  let resultB = [];
+  let start = Nitems * Npag;
   if (start < itemList.cpuList.length) {
     for (let i = start; i < start + Nitems; i++) {
       if (itemList.cpuList[i] !== undefined) {

@@ -7420,14 +7420,32 @@ const itemList = JSON.parse(`{ "cpuList" : [
    "imglink": ".\/img\/img\/database_img_elements\/intel_imgs\/intel_default_img.png"
   }
  ]}`);
-
 const Nitems = 30;
 
 function paginator(Npag) {
   document.getElementById("itemContainer").innerHTML = "";
+  let checkBoxAmd = document.getElementById(amd - filter);
+  let checkBoxIntel = document.getElementById(intel - filter);
   let resultA = [];
   let resultB = [];
   let start = Nitems * Npag;
+
+  for (let i = 0; i < array.length; i++) {
+    let cpuAmdList = [];
+    let itemAmdList = { cpuAmdList };
+
+    let cpuIntelList = [];
+    let itemIntelList = { cpuIntelList };
+
+    if (checkBoxAmd.checked == true) {
+      itemAmdList.cpuAmdList[i] = structuredClone(itemList.cpuList[i]);
+    }
+    if (checkBoxIntel.checked == true) {
+      itemIntelList.cpuIntelList[i] = structuredClone(itemList.cpuList[i]);
+    }
+  }
+
+
   if (start < itemList.cpuList.length) {
     for (let i = start; i < start + Nitems; i++) {
       if (itemList.cpuList[i] !== undefined) {
